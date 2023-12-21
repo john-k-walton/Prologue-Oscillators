@@ -7,9 +7,9 @@ M3_1.6.1a - these files implement, in a single version support for AR envelope, 
 
 M3fast - these files implement the same functionality as M3_1.6.1a, however the attack period has been reduced by 1/5th for faster plucky envelopes, plus there is a small amount of Key Tracking with attack timing; faster envelopes with higher notes. 
 
-Plaits_SineLFO - recompile of *all* Plaits models with Peter Allwin's port code base 1.6.1. so all of Peter's are included with LFO's in addition to Noise, Particle, Swarm, Bass Drum, Snare, and Hi Hat.
+Plaits_SineLFO - recompile of *all* Plaits models with Peter Allwin's port code base 1.6.1. So, all of Peter's original compiled modules are included with his LFO's PLUS addition to Noise, Particle, Swarm, Bass Drum, Snare, and Hi Hat. 
 
-Modal 2 - a late addition was a sucessful porting of Modal model. other model in the Mini-Rings ensamble.
+Modal 2 - a late addition was a sucessful porting of Modal model. other model in the Mini-Rings ensamble. 
 
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
