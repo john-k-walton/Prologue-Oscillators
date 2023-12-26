@@ -1,17 +1,13 @@
 # Prologue Plaits Oscillators
-This directory contains five zip files. Each zip file is a collection of digital oscillators modified from Peter Allwin's work on porting of Emilie Gillet's wonderful Plaits code to Prologue. Where Peter's original work included an builtin LFO2, these versions instead implement Envelope Generators, Key Tracking, as well as including support for the main hardware LFO modulated by envelope or key tracking. 
+This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue. Plaits algorythmic models use four input to express the wide ranging sonic landscape. Currenty provided are two sets of of zipfiles:
 
-Plaits.pdf - Mutable's manual for Plaits.
+Plaits_LFO2.zip - based entirely on Peter's original work with an included an builtin LFO2, the version provided here complete the entire set of Plaits models - with the exception of the Speech model. This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have thier sweet sonic spoot, but they quickly range into chaotic, noisey, and intersting spaces. some level setting may be necessary. 
 
-EGandKT - these files implement either a single AR Envelope Generator or a Key Tracking. The files were built on Peter's V1.6 code base, which included a bug in the wavetable oscillators row indexing. So waveforms were not in canonical order. The AR files are mostly deprecated by the M3 versions. However, the KT files are very useful for voicing the oscillator across the keyboard. KTStr is my favorite for mapping string voicing with respect to pitch, with Prologue layering. Very nice! 
+Plaits_ENV.zip - all the models above, provided with an indexed modulation scheme described in the prototype document M3 Collection.pdf. A linear Envelope Generator combined with key tracking and Prologue' LFO provide a variety of simple AD/ADR/ADSD emvelope, LFO and key tracking options to modulate the models. With these you can add an initial inharmonic twang to a Karplus Strong model, drift through a strobing panoply of harmonics with the addistive sine model, or perhaps create a slowly detuning swarm of polyphonic SAWs, or conversely a swarm of SAW's slowly tuning, your choice!
 
-M3_1.6.1a - these files implement, in a single version support for AR envelope, Key Tracking and LFO redirect all in one oscillator. These oscillators are based on Peter's 1.6.1 code, and thus correct waveform indexing for the six wavetable oscillators.
+These models aren't "load and go" they're complicatde with interesting twists, sweet spots, and chaotic turns, ported from one of the most popular macro oscillators in the eurorack world. see the manual. they are hours of interesting discovery and manipulation. for ease of use every model has the same control structure - learn one, learn them all! but the controls will take you in vastly different spaces.... and someimte, you'll make some music :0) enjoy! 
 
-M3fast - these files implement the same functionality as M3_1.6.1a, however the attack period has been reduced by 1/5th for faster plucky envelopes, plus there is a small amount of Key Tracking with attack timing; faster envelopes with higher notes. 
-
-Plaits_SineLFO - recompile of *all* Plaits models with Peter Allwin's port code base 1.6.1. So, all of Peter's original compiled modules are included with his LFO's PLUS addition to Noise, Particle, Swarm, Bass Drum, Snare, and Hi Hat. 
-
-Modal 2 - a late addition was a sucessful porting of Modal model. other model in the Mini-Rings ensamble. 
+Plaits.pdf - Mutable's manual for Plaits for reference only.
 
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
