@@ -10,6 +10,7 @@ These models aren't "load and go" they're complicatde with interesting twists, s
 Plaits.pdf - Mutable's manual for Plaits for reference only.
 
 M4 Cheat Sheet.pdf - simple chart to describe index system. tape it to something.
+
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
 
