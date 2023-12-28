@@ -5,19 +5,19 @@ Each model represents a different type of synthesis method:
 * Virtual Analog - digital synthesis of classic waveforms.
 * Waveshaper - an asymmetric triangle processed by a waveshaper and a wavefolder.
 * FM - two sine-wave oscillators modulating each others phase.
-* Granular - simulation of formants ad filtered waveforms through the manipulation of segments of sine waves.
-* Additive - mixture of harmonically related sine waves.
-* Wavetables - spatially interpolated selections of 32 waveforms arranged in a 4 x 8 array.
+* Granular - simulation of formants and filtered waveforms through the manipulation of segments of sine waves.
+* Additive - modulate a mixture of harmonically related sine waves.
+* Wavetables - explore an array of spatially interpolated selections of 32 waveforms arranged in a 4 x 8 array.
 * Swarm - a swarm of 8 enveloped saw waves.
-* Noise - variable-clock white noise processed by resonant filter
-* Particles - Dust noise pprocessed by networks of all-pass or bandpass filters.
+* Noise - a variable-clock white noise processed by resonant filter
+* Particles - dust noise processed by networks of all-pass or bandpass filters.
 * Modal - vibrating material physical model 
 * Strings - Karpus Strong vibrating string physical model
 * Bass Drum - behavioral simulation of circuits of classic Bass Drum
 * Snare - behavioral simulation of snare drum circuit.
 * Hi Hat - behavior model of hi hat circuit.
 
-Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering synthesis methods. Then slathering it all with analog VCO's and Prologue effects!
+Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering different synthesis methods. Then  slathering it all with analog VCO's, VCF, and Prologue effects!
 
 They have been hours, days, weeks, months, years now... of interesting discovery and manipulation both on the Modular hardware they were originally developed on. But, then to be able to express myself with them polyphonically have really been engaging. For ease of use, every model within the same family of control methods, has the same control structure - learn one, learn them all! but the controls will take you in vastly different spaces.... and sometimes, you'll make some music along the way :0) enjoy! 
 
