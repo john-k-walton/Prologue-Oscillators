@@ -23,7 +23,7 @@ For me, these models have been hours, days, weeks, months, years now... of inter
 
 As to the oscillators themselves; for ease of use, every model within the same family, has the same control structure, and methods - learn one, learn them all! But in each model, the controls will take you in vastly different spaces.... and sometimes, you'll make some music along the way :0) enjoy! 
 
-Plaits algorithmic models use four inputs to express the wide ranging sonic landscape. Unfortunately, Prologue only present eight control points. for model with a single, or two inputs developer have managed a large number of schema to control their models. These models have four inputs, just setting values for inputs consumes half the controls. therefore, the models have been packaged with a variety of control schemas, two are presented here:
+Plaits algorithmic models use four inputs to express their individual wide ranging sonic landscapes. Unfortunately, Prologue only presents eight control points to the user. For models with a single, or two inputs, developers have managed a large number of schema to control their models. These models have four inputs, just setting values for inputs consumes half the controls. therefore, the models have been packaged with a variety of control schemas, two are presented here:
 LFO2 - this schema presents a method of appling two sine wave LFO's freely to one or a pair of any inputs.
 ENV - this schema presents an indexed set of one hundred various structured single input combinations of the Prologue's LFO and an internally generated envelope, key tracked across the keyboard from opposite ends. The LFO may also be used to modulate the Envelopes amplitude.
 
