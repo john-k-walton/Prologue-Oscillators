@@ -17,7 +17,7 @@ Each model represents a different type of synthesis method:
 * Snare - behavioral simulation of snare drum circuit.
 * Hi Hat - behavior model of hi hat circuit.
 
-Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each is interesting in and of itself, where this collection of techniques really accels, is in layering synthesis methods. Then slathering it all with analog VCO's and Prologue efects!
+Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering synthesis methods. Then slathering it all with analog VCO's and Prologue effects!
 
 They have been hours, days, weeks, months, years now... of interesting discovery and manipulation both on the Modular hardware they were originally developed on. But, then to be able to express myself with them polyphonically have really been engaging. For ease of use, every model within the same family of control methods, has the same control structure - learn one, learn them all! but the controls will take you in vastly different spaces.... and sometimes, you'll make some music along the way :0) enjoy! 
 
