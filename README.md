@@ -4,7 +4,7 @@ This is a collection of digital oscillators based on Peter Allwin's work porting
 Each model represents a different type of synthesis method:
 * Virtual Analog - digital synthesis of classic waveforms.
 * Waveshaper - an asymmetric triangle processed by a waveshaper and a wavefolder.
-* FM - two sine-wave oscillators modulating each others phase.
+* FM - two sine wave oscillators modulating each others phase.
 * Granular - simulation of formants and filtered waveforms through the manipulation of segments of sine waves.
 * Additive - modulate a mixture of harmonically related sine waves.
 * Wavetables - explore an array of spatially interpolated selections of 32 waveforms arranged in a 4 x 8 array.
