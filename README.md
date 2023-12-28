@@ -1,5 +1,7 @@
 # Prologue Plaits Oscillators
-This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue. Plaits algorythmic models use four inputs to express the wide ranging sonic landscape. Currenty provided are four sets of of zipfiles:
+This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue. Plaits is a collection of DSP algorythms, wavetables, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" they're complicated DSP algorythms with interesting twists, sweet spots, and chaotic turns - see the manual included ofor a description of each algorythm and what the controrls do. They are hours of interesting discovery and manipulation. for ease of use every model has the same control structure - learn one, learn them all! but the controls will take you in vastly different spaces.... and sometime, you'll make some music along the way :0) enjoy! 
+
+Plaits algorythmic models use four inputs to express the wide ranging sonic landscape. Currenty provided are four sets of of zipfiles:
 
 Plaits_LFO2.zip - based entirely on Peter's original work with a builtin LFO2. The version provided here completes the entire set of Plaits models - with the exception of the Speech model (still in progress). This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have their sweet sonic spot, but they quickly range into chaotic, noisey, and intersting spaces. some level setting may be necessary. 
 
@@ -9,11 +11,9 @@ Plaits_ENV_WT.zip - Mutable's Plaits wavetables were derived from Braids (an ear
 
 Plaits_LFO2_WT - same oscillators as above but managed by Peter's LFO2 schema. wander the sonic landscape yourself with an Internal LFO modulating one direction, and Prologue LFO in the other. mixe it up with square waves LFOs!
 
-Reminder: all these models aren't "load and go" they're complicated DSP algorythms with interesting twists, sweet spots, and chaotic turns, ported from one of the most popular macro oscillators in the eurorack world. see the manual included ofor a description of each algorythm and what the controrls do. They are hours of interesting discovery and manipulation. for ease of use every model has the same control structure - learn one, learn them all! but the controls will take you in vastly different spaces.... and sometime, you'll make some music along the way :0) enjoy! 
+Plaits.pdf - original online Plaits manual for reference only. please check it out!
 
-Plaits.pdf - Mutable's manual for Plaits for reference only.
-
-M4 Cheat Sheet.pdf - simple chart to describe index system used in the enveloped versions. tape it to something.
+M4 Cheat Sheet.pdf - simple chart to describe index system used in the enveloped versions. tape it to something, you'll need it.
 
 Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of the oscillator are 'a must' to adjust. there is an outstanding bug with the SDK when instancing controls with a both a positice and negative value (referred to as BiPolar). Bipolar controls will default to -100, not zero. as a result, a newly installed oscillators will have to have it's bipolar controls set to meaningful value before the oscillator may render a sound, or at least a *good* sound. :0) 
 
