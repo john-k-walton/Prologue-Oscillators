@@ -1,5 +1,5 @@
 # Prologue Plaits Oscillators
-This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue. Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" they're complicated DSP algorithms with interesting twists, sweet spots, and chaotic turns - see the Plaits PDF manual included for a description of each algorythm and what the controls do.
+This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue. Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" Organ models or other melodius methods, they're elegantly crafted DSP algorithms with interesting twists, sweet spots, and chaotic turns - see the Plaits PDF manual included for a description of each algorythm and what the controls do.
 
 Each model represents a different type of synthesis method:
 Virtual Analog - digital synthesis of classic waveforms.
