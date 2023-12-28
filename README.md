@@ -9,7 +9,7 @@ Plaits_ENV.zip - all the models above, provided with an indexed modulation schem
 
 Plaits_ENV_WT.zip - Mutable's Plaits wavetables were derived from Braids (an earlier macro oscillator product without integrated wavetables). This Zip contains the remaining WaveTables from Braids inplemented in the Integrated Wavetable method used by Plaits to improve anti-aliasing. Each oscillator contains four wavetables, each wavetable contains 8 harmonically related wavecycles, for a total of 32 waveforms per oscillator. The envelope generator provided is linear - which is especially nice with wavetable scanning, as opposed to exponential where everything sounds like "Whoop!". Linear envlopes are adjustable from 1-10 seconds for long slow rolling washs of sonic development.
 
-Plaits_LFO2_WT - same oscillators as above but managed by Peter's LFO2 schema. wander the sonic landscape yourself with an Internal LFO modulating one direction, and Prologue LFO in the other. mixe it up with square waves LFOs!
+Plaits_LFO2_WT - same oscillators as above but managed by Peter's LFO2 schema. wander the sonic landscape yourself with an Internal LFO modulating one direction, and Prologue's LFO in the other; mix it up with a square wave LFO! or audio rate for complete nonsense!
 
 Plaits.pdf - original online Plaits manual for reference only. please check it out!
 
