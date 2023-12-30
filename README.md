@@ -31,6 +31,8 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 Todays selection of files are:
 
+* NEW! SS_LFO_WT.zip - set of five Wavetable oscillators containing ShapeShift LFO wavetables. tThey are spectrally active and fun to play with! only Env versions today.
+
 * Plaits_LFO2.zip - based entirely on Peter's original work with a builtin LFO2. The version provided here completes the entire set of Plaits models - with the exception of the Speech model (still in progress). This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have their sweet sonic spot, but they quickly range into chaotic, noisey, and interesting spaces. some level setting may be necessary. 
 
 * Plaits_ENV.zip - all the models above, provided with an indexed modulation scheme described in the prototype document M3 Collection.pdf. A linear Envelope Generator combined with key tracking and Prologue's own LFO provide a variety of simple AD/ADR/ADSD envelope, LFO, and key tracking options to modulate the models. With these you can add an initial inharmonic twang to a Karplus Strong model, drift through a strobing panoply of harmonics with the addistive sine model, or perhaps create a slowly detuning swarm of polyphonic SAWs, or conversely a swarm of SAW's slowly tuning, your choice!
