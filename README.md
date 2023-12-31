@@ -29,7 +29,7 @@ ENV - this schema presents an indexed set of one hundred various structured sing
 
 Select the schema for the model you want to explore, then load and go crazy! 
 
-#Todays selection of files are:
+# Todays selection of files are:
 
 * NEW! SS_LFO_WT.zip - set of five Wavetable oscillators containing ShapeShift LFO wavetables. They are spectrally active and fun to play with! only Env versions today.
 
