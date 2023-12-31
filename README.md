@@ -7,7 +7,7 @@ Each model represents a different type of synthesis method:
 * FM - two sine wave oscillators modulating each others phase.
 * Granular - simulation of formants and filtered waveforms through the manipulation of segments of sine waves.
 * Additive - modulate a mixture of harmonically related sine waves.
-* Wavetables - explore many collections of 32 waveforms arranged in 4 x 8 wavecycle arrays.
+* Wavetables - explore many collections of 32 waveforms arranged in 4 x 8 wavecycle arrays; Plaits, Braids, ShapeShifter.
 * Swarm - a swarm of 8 enveloped saw waves.
 * Noise - a variable-clock white noise processed by resonant filter
 * Particles - dust noise processed by networks of all-pass or bandpass filters.
