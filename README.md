@@ -31,9 +31,9 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 # Todays selection of files are:
 
-* NEW! SS_LFO_WT.zip - set of five Wavetable oscillators containing ShapeShift LFO wavetables. They are spectrally active and fun to play with! only Env versions today.
+* NEW! SS_LFO_WT.zip - set of five Wavetable oscillators containing ShapeShifter LFO derived wavetables. They are spectrally active and fun to play with! only Env versions today.
   
-* Also NEW SS_CVVE.zip - a set of wavetables with Chirps, VideosGames, Vocals, ePiano's!
+* Also NEW SS_CVVE.zip - a collection of wavetables set with Chirps, VideosGames, Vocals, ePiano's!
 
 * Plaits_LFO2.zip - based entirely on Peter's original work with a builtin LFO2. The version provided here completes the entire set of Plaits models - with the exception of the Speech model (still in progress). This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have their sweet sonic spot, but they quickly range into chaotic, noisey, and interesting spaces. some level setting may be necessary. 
 
