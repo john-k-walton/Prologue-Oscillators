@@ -43,6 +43,8 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 * Plaits_LFO2_WT2.0 - same oscillators as above but managed by Peter's LFO2 schema. wander the sonic landscape yourself with an Internal LFO modulating one direction, and Prologue's LFO in the other; mix it up with a square wave LFO! or audio rate for complete nonsense!
 
+* Modal2.Zip - Envelope and LFO2 schemas for MiniRings Modal physical model for vibrating materials - not to be confused with Strike-model.
+
 * Plaits.pdf - original online Plaits manual for reference only. please check it out!
 
 * M4 Cheat Sheet.pdf - simple chart to describe index system used in the enveloped versions. tape it to something, you'll need it.
