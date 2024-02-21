@@ -11,8 +11,8 @@ Each model represents a different type of synthesis method:
 * Swarm - a swarm of 8 enveloped saw waves.
 * Noise - a variable-clock white noise processed by resonant filter
 * Particles - dust noise processed by networks of all-pass or bandpass filters.
-* Modal - vibrating material physical model 
-* Strings - Karpus Strong vibrating string physical model
+* Modal - vibrating material physical model; bells, wood blocks, metal bars.
+* Strings - Karpus Strong vibrating string physical model; guitars, plucks, plinks, and a whole lot more.
 * Bass Drum - behavioral simulation of circuits of classic Bass Drum
 * Snare - behavioral simulation of snare drum circuit.
 * Hi Hat - behavior model of hi hat circuit.
