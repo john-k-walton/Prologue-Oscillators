@@ -51,7 +51,7 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of the oscillator are 'a must' to adjust. there is an outstanding bug with the SDK when instancing controls with a both a positice and negative value (referred to as BiPolar). Bipolar controls will default to -100, not zero. as a result, a newly installed oscillators will have to have it's bipolar controls set to meaningful value before the oscillator may render a sound, or at least a *good* sound. :0)
 
-* lastly, here are some audio demos to listen to. Particle, Swarm and Noise examples, plus three layered examples with Sawrm, Modal, Particles, Granular, and Additive models. 
+* lastly, here are some audio demos to listen to; Particle, Swarm and Noise examples, plus three layered pieces with Swarm, Modal, Particles, Granular, and Additive models in various combinations.
 
 https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
 
