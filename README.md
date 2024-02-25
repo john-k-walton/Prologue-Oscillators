@@ -18,11 +18,11 @@ Each model represents a different type of synthesis method:
 * Particles - dust noise processed by networks of all-pass or bandpass filters [NEW].
 * Bass Drum - behavioral simulation of circuits of classic Bass Drum [NEW].
 * Snare - behavioral simulation of snare drum circuit [NEW].
-* Hi Hat - behavior model of hi hat circuit [NEW].
+* Hi Hat - behavioral model of hi-hat circuit [NEW].
 
-Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering the  different synthesis methods. Then  slathering it all with analog VCO's, VCF, and Prologue effects!
+Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering the  different synthesis methods. Then  slathering it all with analog VCO's, VCF's, and Prologue effects!
 
-Plaits algorithmic models use four inputs to express their individual wide ranging sonic landscapes. Unfortunately, Prologue only presents eight control points to the user. For models with a single, or two inputs, developers have managed to create a large number of schema to control their models. These models have four inputs, just setting values for inputs consumes half the controls. therefore, the models have been packaged with a variety of control schemas, two are presented here:
+Plaits models use four inputs to express their individual wide ranging sonic landscapes; three orthoganal inputs that express the ful reach of the synthesis model - think of a 3D space of sonic texture - and a forth input that mixes the standard algorithm with an alternate expression, such as dual bandpass filters or different filter modes. Prologue presents eight control points to the user. These models have four inputs, just setting static values for inputs consumes half the controls, leaving the rest for modulation controls. therefore, the models have been packaged with a variety of control schemas; two are presented here:
 
 * LFO2 - this schema presents a method of appling two LFO's freely to one or a pair of any inputs. in addition to the main LFO, a built-in LFO2 is provided for complex periodic variations.
   
