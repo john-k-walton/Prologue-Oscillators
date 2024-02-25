@@ -11,11 +11,11 @@ Each model represents a different type of synthesis method:
 * Granular - simulation of formants and filtered waveforms through the manipulation of segments of sine waves.
 * Additive - modulate a mixture of harmonically related sine waves.
 * Wavetables - explore many collections of 32 waveforms arranged in 4 x 8 wavecycle arrays; Plaits, Braids, ShapeShifter.
+* Strings - Karpus Strong vibrating string physical model; guitars, plucks, plinks, and a whole lot more.
+* Modal - vibrating material physical model; bells, wood blocks, metal bars [NEW].
 * Swarm - a swarm of 8 enveloped saw waves [NEW].
 * Noise - a variable-clock white noise processed by resonant filter [NEW].
 * Particles - dust noise processed by networks of all-pass or bandpass filters [NEW].
-* Modal - vibrating material physical model; bells, wood blocks, metal bars [NEW].
-* Strings - Karpus Strong vibrating string physical model; guitars, plucks, plinks, and a whole lot more.
 * Bass Drum - behavioral simulation of circuits of classic Bass Drum [NEW].
 * Snare - behavioral simulation of snare drum circuit [NEW].
 * Hi Hat - behavior model of hi hat circuit [NEW].
