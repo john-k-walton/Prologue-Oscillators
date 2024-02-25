@@ -51,9 +51,9 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of the oscillator are 'a must' to adjust. there is an outstanding bug with the SDK when instancing controls with a both a positice and negative value (referred to as BiPolar). Bipolar controls will default to -100, not zero. as a result, a newly installed oscillators will have to have it's bipolar controls set to meaningful value before the oscillator may render a sound, or at least a *good* sound. :0)
 
-* lastly, here are some audio demos to listen to; Particle, Swarm and Noise examples, plus three layered pieces with Swarm, Modal, Particles, Granular, and Additive models in various combinations.
+* lastly, here are some audio demos to listen to; Particle, Swarm and Noise examples, plus three layered pieces with Swarm, Modal, Particles, Granular, and Additive models in various combinations. The demos feature a sample backing track for context in the middle of the demo; then beginning and endings feature inspection of layers or alternative settings.
 
-https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
+https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue 
 
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
