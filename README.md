@@ -54,7 +54,7 @@ Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of t
 
 * lastly, here are some audio demos to listen to; Particle, Swarm and Noise examples, plus three layered pieces with Swarm, Modal, Particles, Granular, and Additive models in various combinations. The demos feature a sample backing track for context in the middle of the demo; then beginning and endings feature inspection of layers or alternative settings.
 
-https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue 
+https://soundcloud.com/plaits-for-prologue 
 
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
