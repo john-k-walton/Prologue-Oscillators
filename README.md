@@ -1,4 +1,4 @@
-# Prologue Plaits Oscillators / NEW content posted below the fold.
+# Prologue Plaits Oscillators / NEW (12/23) content posted below the fold.
 This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue; PLUS 7 NEW models freshly ported from the original Plaits, AND 5 new wavetables from Braids, AND THEN some new wavetables derived from Shapershifter wavetables.
 
 WHAT IS IT?
