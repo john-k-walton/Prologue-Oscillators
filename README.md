@@ -2,7 +2,7 @@
 This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue; PLUS 7 NEW models freshly ported from the original Plaits, AND 5 new wavetables from Braids, AND THEN some new wavetables derived from Shapershifter wavetables.
 
 WHAT IS IT?
-Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" Organ models or other synthesis method focused on melodiusness; they're elegantly crafted DSP algorithms with interesting twists, sweet spots, and chaotic turns.
+Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" Organ models or other synthesis methods focused solely on melodiusness; they're elegantly crafted DSP algorithms with interesting twists, sweet spots, and chaotic turns!
 
 Each model represents a different type of synthesis method:
 * Virtual Analog - digital synthesis of classic waveforms.
@@ -20,13 +20,13 @@ Each model represents a different type of synthesis method:
 * Snare - behavioral simulation of snare drum circuit [NEW].
 * Hi Hat - behavioral model of hi-hat circuit [NEW].
 
-Taken together it's a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering the  different synthesis methods. Then  slathering it all with analog VCO's, VCF's, and Prologue effects!
+Taken together it is a complete laboratory of sonic creation, exploration, and surprise! And while each model is interesting in and of itself, where this collection of techniques really accels, is in layering the  different synthesis methods. Then  slathering it all with analog VCO's, VCF's, and Prologue effects!
 
-Plaits models use four inputs to express their individual wide ranging sonic landscapes; three orthoganal inputs that express the ful reach of the synthesis model - think of a 3D space of sonic texture - and a forth input that mixes the standard algorithm with an alternate expression, such as dual bandpass filters or different filter modes. Prologue presents eight control points to the user. These models have four inputs, just setting static values for inputs consumes half the controls, leaving the rest for modulation controls. therefore, the models have been packaged with a variety of control schemas; two are presented here:
+Plaits models use four inputs to express their individual wide ranging sonic landscapes; three orthogonal inputs that express the ful reach of the synthesis model - think of a cubic 3D space full of sonic textures - and a forth input that mixes the standard algorithm with an alternate expression, such as dual bandpass filters or different filter modes. Prologue presents eight control points to the user. With four algorithimic inputs, just setting starting values for inputs consumes half the Prologues eight user oscillator controls, leaving the rest for modulation controls. Since this can be unduly restrictive for multivariable models; therefore, the models have been packaged with a variety of control schemas; two are presented here:
 
-* LFO2 - this schema presents a method of appling two LFO's freely to one or a pair of any inputs. in addition to the main LFO, a built-in LFO2 is provided for complex periodic variations.
+* LFO2 - Peter's original schema presents a method of appling two LFO's freely to one or a pair of any inputs. in addition to the main LFO, a built-in LFO2 is provided for complex periodic variations. 
   
-* ENV - this schema presents combinations of indexed modulations featuring envelope, key tracking, and the main LFO. key tracking can be used to cross fade modulations from Envelope to LFO, or LFO to Envelope across the keyboard. the LFO and Envelope may be summed, or multiplied together to produce delay vibrato like effects by enveloping the LFO. indicies with opposite slopes for key tracking modulations may be applied to sub and main layers for even more interesting intonations across the keyboard, or for very complex modulations. 
+* ENV - this schema presents combinations of indexed modulations featuring envelope, key tracking, and the main LFO. key tracking can be used to cross fade modulations from Envelope to LFO, or LFO to Envelope across the keyboard. the LFO and Envelope may be summed, or multiplied together to produce delay vibrato like effects by enveloping the LFO. indicies with opposite slopes for key tracking modulations may be applied to sub and main layers for even more interesting intonations across the keyboard, or for very complex modulations. due to control complexity, this schema modulates one input variable.
 
 Select the schema for the model you want to explore, then load and go crazy! 
 
