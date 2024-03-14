@@ -59,6 +59,7 @@ https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
 
 This set features Prologue and XD with various other instruments in more involved pieces:
 https://soundcloud.com/plaits-for-prologue/sets/listening-stuff
+
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th variable. Whoa!
 
