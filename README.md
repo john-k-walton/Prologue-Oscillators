@@ -57,7 +57,7 @@ Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of t
 This set features selected models heard by itself, then with some ad hoc accompaniment. Runtime aprox 1.5 minutes each: 
 https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
 
-This set features Prologue and XD with various other instruments in more involved pieces. Somewhat longer 2-3 minutes song demo works:
+This set features Prologue and XD with various other instruments in more involved pieces. Somewhat longer 2-3 minutes song demo works. chronologically later works feature more complex arrangements for Prologue that include an XD:
 https://soundcloud.com/plaits-for-prologue/sets/listening-stuff
 
 ----
