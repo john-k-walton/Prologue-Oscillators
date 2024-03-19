@@ -54,10 +54,10 @@ Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of t
 
 * lastly, here are some audio demos to listen to; Particle, Swarm and Noise examples, plus three layered pieces with Swarm, Modal, Particles, Granular, and Additive models in various combinations. The demos feature a sample backing track for context in the middle of the demo; then beginning and endings feature inspection of layers or alternative settings.
 
-This set features selected models heard by itself, then with some ad hoc accompaniment: 
+This set features selected models heard by itself, then with some ad hoc accompaniment. Runtime aprox 1.5 minutes each: 
 https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
 
-This set features Prologue and XD with various other instruments in more involved pieces:
+This set features Prologue and XD with various other instruments in more involved pieces. Somewhat longer 2-3 minutes song demo works:
 https://soundcloud.com/plaits-for-prologue/sets/listening-stuff
 
 ----
