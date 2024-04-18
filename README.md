@@ -1,7 +1,7 @@
 # Prologue Plaits Oscillators / NEW (12/23) content posted below the fold.
 This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue; PLUS 7 NEW models freshly ported from the original Plaits, AND 5 new wavetables from Braids, AND THEN some new wavetables derived from Shapershifter wavetables.
 
-  *currently NTS versions are down for repair*
+Today, thanks to a bug reported by a thoughtful musician, I found I had missed the BLOCKSIZE uodate to Peter's code that changes the frame size for each platform - the NTS platform binsries have not been correct until today (4/8); both ENV and LFO2 Binaries Zip's nlw contain working NTS binaries now - the others will have to wait few more days
 
 WHAT IS IT?
 Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" Organ models or other synthesis methods focused solely on melodiusness; they're elegantly crafted DSP algorithms with interesting twists, sweet spots, and chaotic turns!
@@ -34,19 +34,13 @@ Select the schema for the model you want to explore, then load and go crazy!
 
 # Todays selection of files are:
 
-* NEW! SS_LFO_WT.zip - set of five Wavetable oscillators containing ShapeShifter LFO derived wavetables. They are spectrally active and fun to play with! only Env versions today.
-  
-* Also NEW SS_CVVE_WT.zip - a collection of wavetables set with Chirps, VideosGames, Vocals, ePiano's!
+* Plaits_LFO2_Binaries.zip - based entirely on Peter's original work with a builtin LFO2. The version provided here completes the entire set of Plaits models - with the exception of the Speech model (still in progress). This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have their sweet sonic spot, but they quickly range into chaotic, noisey, and interesting spaces. some level setting may be necessary. 
 
-* Plaits_LFO2.zip - based entirely on Peter's original work with a builtin LFO2. The version provided here completes the entire set of Plaits models - with the exception of the Speech model (still in progress). This set also contins the following new models from the noisey set: Filtered Noise, Particle Noise, Bass Drum, Snare, Hi Hat, Modal (the "Minirings" Modal synthesis), Swarm (Granular Cloud of Saws). these new models have their sweet sonic spot, but they quickly range into chaotic, noisey, and interesting spaces. some level setting may be necessary. 
-
-* Plaits_ENV.zip - all the models above, provided with an indexed modulation scheme described in the prototype document M3 Collection.pdf. A linear Envelope Generator combined with key tracking and Prologue's own LFO provide a variety of simple AD/ADR/ADSD envelope, LFO, and key tracking options to modulate the models. With these you can add an initial inharmonic twang to a Karplus Strong model, drift through a strobing panoply of harmonics with the addistive sine model, or perhaps create a slowly detuning swarm of polyphonic SAWs, or conversely a swarm of SAW's slowly tuning, your choice!
+* Plaits_ENV_Binaries.zip - all the models above, provided with an indexed modulation scheme described in the prototype document M3 Collection.pdf. A linear Envelope Generator combined with key tracking and Prologue's own LFO provide a variety of simple AD/ADR/ADSD envelope, LFO, and key tracking options to modulate the models. With these you can add an initial inharmonic twang to a Karplus Strong model, drift through a strobing panoply of harmonics with the addistive sine model, or perhaps create a slowly detuning swarm of polyphonic SAWs, or conversely a swarm of SAW's slowly tuning, your choice!
 
 * Plaits_ENV_WT2.0.zip - Mutable's Plaits wavetables were derived from Braids (an earlier macro oscillator product without integrated wavetables). This Zip contains the representatives of the remaining WaveTables from Braids inplemented in the Integrated Wavetable method used by Plaits to improve anti-aliasing; Strings, Voices, Jazz, Clang, India. Each oscillator contains four wavetables, each wavetable contains 8 harmonically related wavecycles, for a total of 32 waveforms per oscillator. The envelope generator provided is linear - which is especially nice with wavetable scanning, as opposed to exponential where everything sounds like "Whoop!". Linear envlopes are adjustable from 1-10 seconds for long slow rolling washs of sonic development.
 
 * Plaits_LFO2_WT2.0 - same oscillators as above but managed by Peter's LFO2 schema. wander the sonic landscape yourself with an Internal LFO modulating one direction, and Prologue's LFO in the other; mix it up with a square wave LFO! or audio rate for complete nonsense!
-
-* Modal2.Zip - Envelope and LFO2 schemas for MiniRings Modal physical model for vibrating materials - not to be confused with Strike-model.
 
 * Plaits.pdf - original online Plaits manual for reference only. please check it out!
 
