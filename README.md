@@ -1,7 +1,7 @@
 # Prologue Plaits Oscillators / NEW (12/23) content posted below the fold.
 This is a collection of digital oscillators based on Peter Allwin's work porting Emilie Gillet's wonderful Plaits code to the Korg Prologue; PLUS 7 NEW models freshly ported from the original Plaits, AND 5 new wavetables from Braids, AND THEN some new wavetables derived from Shapershifter wavetables.
 
-Today, thanks to a bug reported by a thoughtful musician, I found I had missed the BLOCKSIZE update to Peter's code that changes the frame size for each platform - the NTS platform binaries have not been correct until today (4/8); both ENV and LFO2 Binaries Zip's new contain working NTS binaries now - the others will have to wait few more days
+Today, thanks to a bug reported by a thoughtful musician, I found I had missed the BLOCKSIZE update to Peter's code that changes the frame size for each platform - the NTS platform binaries have not been correct until today (4/8); both ENV and LFO2 Binaries Zip's now contain working NTS binaries - the others will have to wait few more days.
 
 WHAT IS IT?
 Plaits is a collection of DSP algorithms, wavetables, physical modeling, and traditional synthesis models combined together in one of the most popular macro oscillators in the eurorack world. These models aren't "load and go" Organ models or other synthesis methods focused solely on melodiusness; they're elegantly crafted DSP algorithms with interesting twists, sweet spots, and chaotic turns!
