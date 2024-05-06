@@ -53,9 +53,7 @@ Note for Newbies to Korg SDK. the 6 menu params used to define the behavior of t
 This set features selected models heard by itself, then with some ad hoc accompaniment. Runtime aprox 1.5 minutes each: 
 https://soundcloud.com/plaits-for-prologue/sets/plaits-for-prologue
 
-This set features Prologue and XD with various other instruments in more involved pieces. Somewhat longer 2-3 minutes song demo works. chronologically later works feature more complex arrangements for Prologue that include an XD:
-
-https://soundcloud.com/plaits-for-prologue/sets/the-music-of-plaits
+This set features Prologue and XD with various other instruments in more involved pieces. Somewhat longer 2-3 minutes song demo works. chronologically later works feature more complex arrangements for Prologue that include an XD: https://soundcloud.com/plaits-for-prologue/sets/the-music-of-plaits
 
 ----
 I'm using Yorich Tech's Low Frequency Expander to demo some modulation schemes. most demo works use the LFE to modulate either Effects settings, and/or the first two model Paramaters. With it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to modulate the 3rd or 4th model input. Whoa! that's a lot of modulation!
