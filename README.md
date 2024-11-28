@@ -8,4 +8,4 @@ Notes: as folks should know by now... there is a Logue SDK bug in the initializa
 
 Further note: the Attack and Decay Modes are encoded into different envelope shapes - as noted in the doc - positive and negative envelope timing combins to result in AD, AR, ADSR 40% and ADSR 70% sustain type envelopes. so, +1 Attack, and +20 Decay, will be an AR of 1/20. a -1 Attack and +20 Decay will result in an ADSR with attack of 1, and a decay and release of 20, and a sustain of 40%. +/- will present as AR, and -/- as ADSR 70%. these are the same envelope types in M4, but now you can apply the envelope to more than one input.
 
-So, please enjoy these progressive, and liberal tariff-free user oscillators; screw Trump and have some fun instead while Leopards Feast on their Faces.
+So, please enjoy these progressive, and liberal tariff-free user oscillators while Trump's 2nd failed dumpster fire rages for four years. have some fun and make some music while the Leopards Feast on Faces! and vote blue!
