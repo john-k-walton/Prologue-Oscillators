@@ -8,4 +8,4 @@ notes: as folks should know by now... there is a Logue SDK bug in the initializa
 
 Further note: the Attack and Decay Modes are encoded into different envelope shapes - as noted in the doc - positive and negative envelope timing results in AD, AR, ADSR 40% and ADSR 70% sustain type envelopes. so, +1 Attack, and +20 Decay, will be an AR of 1/20. a -1 Attack and +20 Decay will result in an ADSR with attack of 1, and a decay and release of 20.
 
-so, screw Trump and have some fun instead!
+so, screw Trump and have some fun instead while Leopards Feast on Faces.
