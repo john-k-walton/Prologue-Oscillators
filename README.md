@@ -10,7 +10,7 @@ One shortcoming of the Korg Logue is a lack of control space for the User Oscill
 
 To fit this new control schema, the AUX model output mixer was dropped. instead the AUX models were split off into their own models; Waveshaper split into Tides and Warps waveshapers; Virtual Analog into VA and VASync (hard synced oscillators); Granular into Grain and Zbraids (a CZ like filter simulation of Peaking, LP, BP, and HP filter responses); and finally Noise into Noise and NoiseDBP (Dual Bandpass).
 
-Additionally, [NEW model] Virtual VCF from Plaits 1.2 models is included. very cool model. more to come. whee!
+Additionally, [NEW model] Virtual VCF from Plaits 1.2 models is included. very cool model. more to come. whee! try layering VCF with itself, setting both layers Multirouting to POST; now you have have two digital OSC/VCF's and two analog VCO/VCF to play with, great for lush pads.
 
 Note: the envelope mode controls are still in debug; avoid the '0' Attack setting for the moment; it won't do anything constructive at the moment, nor is it malevolent. the Attack and Decay Modes are encoded into different envelope shapes - as noted in the doc - positive and negative Attack and Decay timing combines to result in AD, AR, ADSR 40% and ADSR 70% sustain type envelopes. for example; +1 Attack and +20 Decay. will be an AR of 1/20; a -1 Attack and +20 Decay will result in an ADSR with attack of 1, and a decay and release of 20, with a sustain at 40%. +/- will present as AR, and -/- as ADSR 70%. these are the same envelope types in M4, but now you can apply the envelope to more than one input at a time.
 
