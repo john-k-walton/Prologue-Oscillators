@@ -2,7 +2,7 @@
 
 There are currently 25 models available across 75 oscillators in this base Plaits release. other Wavetables oscillators are also in the works.
 
-*ugh, just noticed that BLOCKSIZE for NTS is probably wrong for VCF module. 1.2 VCF XD is fine, same as Prologue. 1.0's are ok on NTS. more work to do for next releases. lol).*
+*ugh, just noticed that BLOCKSIZE for NTS is probably wrong for VCF module in new codebase. 1.2 VCF XD is fine, same as Prologue. 1.0's are ok on NTS. more work to do for next releases. lol).*
 
 [NEW] [11/28/24] M5 Versions coming soon... those posted are only 1/2 finished debug models; no LFO2 support yet, and reduced Envelope timing ranges. 
 
