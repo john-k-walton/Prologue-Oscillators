@@ -1,6 +1,6 @@
-[NEW] [12/01/24] retargeted some modulation channels, and added an KT+LFO channel option for better voicing possibilities. included all platforms for all supported 1.0 and 1.2 modules now. Also included are Plaits Wavetables. These were rendered as interpolated only (input 3 removed as well as lo-fi AUX model output), with it's own modulation channel definitions to accomodate the larger control schemas for wavetables.
+[NEW] [12/01/24] retargeted some modulation channels, and added an MOD Channel 3 KT+LFO channel option for better voicing possibilities, also MOD Channel 1 Env+LFO. included all platforms for all supported 1.0 and 1.2 modules now. Also included are Plaits Wavetables. These were rendered as interpolated only (input 3 removed as well as lo-fi AUX model output), with it's own modulation channel definitions to accomodate the larger control schemas for wavetables. these version have more modulations, and more options for modulation. Layering is even wilder with these :0)
 
-*ugh, just noticed that BLOCKSIZE for NTS is probably wrong for VCF module. 1.2 VCF XD is fine, same as Prologue. 1.0's are ok on NTS. more work to do. lol).*
+*ugh, just noticed that BLOCKSIZE for NTS is probably wrong for VCF module. 1.2 VCF XD is fine, same as Prologue. 1.0's are ok on NTS. more work to do for next releases. lol).*
 
 [NEW] [11/28/24] M5 Versions coming soon... those posted are only 1/2 finished debug models; no LFO2 support yet, and reduced Envelope timing ranges. 
 
