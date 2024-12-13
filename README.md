@@ -1,4 +1,15 @@
-[NEW] [12/01/24] retargeted some modulation channels, and added an MOD Channel 3 KT+LFO channel option for better voicing possibilities, also MOD Channel 1 Env+LFO for some nice Timbre tickling fun. included all platforms for all supported 1.0 and 1.2 modules now. Also included are Plaits 2D Wavetables. These were rendered as interpolated only (input 3 removed as well as lo-fi AUX model output), with it's own modulation channel definitions to accomodate the larger control schemas for wavetables. these version have more modulations, and more options for modulation. Layering is even wilder with these :0)
+[NEW] [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more.
+
+finished Envelope options:
+1. models with a spectral Timbre response get exponential, others a linear attack. this helps snappiness where it matters without giving up a a smoother onset for other models.
+2. setting the Decay to +100 signals linear ramp attack with no decay/release. good for dopler shifts, long spectral rises, and other NRZ tricks.
+3. exponential attacks will terminate with note_off, more natural than always completing. linear doesn't terminate early.
+4. envelope timing is split into two ranges; a fast range, and a slow range (over 50-60 is slow) for now. currently using a log2 func for exp attack, may switch to LUT's for envelope and timing.
+
+Each model now has customized envelope slope, and timing range depending on the models spectral response and expected envelope use cases.
+minor retargetting of some mod channels on some models.
+
+[12/01/24] retargeted some modulation channels, and added an MOD Channel 3 KT+LFO channel option for better voicing possibilities, also MOD Channel 1 Env+LFO for some nice Timbre tickling fun. included all platforms for all supported 1.0 and 1.2 modules now. Also included are Plaits 2D Wavetables. These were rendered as interpolated only (input 3 removed as well as lo-fi AUX model output), with it's own modulation channel definitions to accomodate the larger control schemas for wavetables. these version have more modulations, and more options for modulation. Layering is even wilder with these :0)
 
 There are currently 25 models available across 75 oscillators in this base Plaits release. other Wavetables oscillators are also in the works.
 
