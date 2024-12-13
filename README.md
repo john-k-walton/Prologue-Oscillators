@@ -1,4 +1,4 @@
-[NEW] [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more.
+[NEW] [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more. (download M5 demo oscillators 2).
 
 finished Envelope options:
 1. models with a spectral Timbre response get exponential, others a linear attack. this helps snappiness where it matters without giving up a a smoother onset for other models.
