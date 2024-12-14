@@ -1,4 +1,12 @@
-[NEW] [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more. (download M5 demo oscillators 2).
+[NEW] [12/14/24]
+LFO2 mode half finished. four options are provided:
+1. LFO2 + LFO; both LFO's are added then applied to the modulation channel. this superimposed both LFO's for dual cresting wave romps. [done]
+2. LFO2 * LFO, LFO's are multiplied together. this envelopes one LFO with the other as one LFO diminishes it also reduces the other. this provides a 'beathing' LFO type of effect. [done]
+3. LFO2 appears as slightly damped vibration, with key tracked vibration rate. this provides a vibraphone type of modulation.
+4. LFO2 appears as a damped tremolo with key track amplitide.
+... and i ran out of memory on the string model again. this happened last time as well. have to switch some stuff up on that model. so that model wasn't updated beyond LFO2 mode 1. Wavetable also got update, but haven't updaetd spreadsheet yet; LFO2[x]LFO on channel 1, LFO2 only on channel 2.
+
+[12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more. (download M5 demo oscillators 2).
 
 finished Envelope options:
 1. models with a spectral Timbre response get exponential, others a linear attack. this helps snappiness where it matters without giving up a a smoother onset for other models.
