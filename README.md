@@ -2,7 +2,7 @@
 
 finished Envelope options:
 1. models with a spectral Timbre response get exponential, others a linear attack. this helps snappiness where it matters without giving up a a smoother onset for other models.
-2. setting the Decay to +100 signals linear ramp attack with no decay/release. good for dopler shifts, long spectral rises, and other NRZ tricks.
+2. setting the Decay to +100 signals linear ramp attack with no decay/release. good for doppler shifts, long spectral rises, and other NRZ tricks.
 3. exponential attacks will terminate with note_off, more natural than always completing. linear doesn't terminate early.
 4. envelope timing is split into two ranges; a fast range, and a slow range (over 50-60 is slow) for now. currently using a log2 func for exp attack, may switch to LUT's for envelope and timing.
 
