@@ -17,12 +17,14 @@ finished Envelope options:
 Each model now has customized envelope slope, and timing range depending on the models spectral response and expected envelope use cases.
 minor retargetting of some mod channels on some models.
 
+----------
 [12/01/24] retargeted some modulation channels, and added an MOD Channel 3 KT+LFO channel option for better voicing possibilities, also MOD Channel 1 Env+LFO for some nice Timbre tickling fun. included all platforms for all supported 1.0 and 1.2 modules now. Also included are Plaits 2D Wavetables. These were rendered as interpolated only (input 3 removed as well as lo-fi AUX model output), with it's own modulation channel definitions to accomodate the larger control schemas for wavetables. these version have more modulations, and more options for modulation. Layering is even wilder with these :0)
 
 There are currently 25 models available across 75 oscillators in this base Plaits release. other Wavetables oscillators are also in the works.
 
 *ugh, just noticed that BLOCKSIZE for NTS is probably wrong for VCF module in new codebase. 1.2 VCF XD is fine, same as Prologue. 1.0's are ok on NTS. more work to do for next releases. lol).*
 
+----------------------
 [11/28/24] M5 Versions coming soon... those posted are only 1/2 finished debug models; no LFO2 support yet, and reduced Envelope timing ranges. 
 
 One shortcoming of the Korg Logue is a lack of control space for the User Oscillator. SDK provided only 8 controls, sounds like a lot, until you need to do some multidimensional modulation for complex models. then, you run out of control space fast; each input needs a Bias value for a starting point for the note, and a modulation positive or negative Intensity. so, a three input Plaits model consumes 6 of the available 8 SDK controls for Bias and Intensity controls for each modulation channel just to get started. the remaining two controls are used to manage Envelope modulation sources and modulation types; LFO, Envelope, Key Tracking are assigned to inputs based on the inputs behavior; generally Timbre get an envelope, Morph gets the envelope and the LFO, and the Harmonics input gets Key Tracking. although, some models may have different assignments where it makes sense to do so. mkII has a few extra controls, so more complex schemas with multiple permutations of modulation controls can be more easily implemented with an Index to select modulation assignment in the future. in M5, all three modulation assignments are *concurrent*. you can get some very cool voicing this way. for instance, the physical models map the internal model decay into Key Tracking, so higher notes or lower notes can have different decay times. models with tonal, frequency or pitch modulation characteristics receive an LFO, envelope, or both; allowing twangs, pitch wobbles, arpeggiations, swoops, falls, and rises; very cool! 
