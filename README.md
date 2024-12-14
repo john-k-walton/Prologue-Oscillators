@@ -1,5 +1,5 @@
 [NEW] [12/14/24]
-LFO2 mode half finished. four options are provided:
+first half of LFO2 mode finished. four options are provided:
 1. LFO2 + LFO; both LFO's are added then applied to the modulation channel. this superimposed both LFO's for dual cresting wave romps. [done]
 2. LFO2 * LFO, LFO's are multiplied together. this envelopes one LFO with the other as one LFO diminishes it also reduces the other. this provides a 'beathing' LFO type of effect. [done]
 3. LFO2 appears as slightly damped vibration, with key tracked vibration rate. this provides a vibraphone type of modulation.
