@@ -4,8 +4,8 @@ LFO2 mode half finished. four options are provided:
 2. LFO2 * LFO, LFO's are multiplied together. this envelopes one LFO with the other as one LFO diminishes it also reduces the other. this provides a 'beathing' LFO type of effect. [done]
 3. LFO2 appears as slightly damped vibration, with key tracked vibration rate. this provides a vibraphone type of modulation.
 4. LFO2 appears as a damped tremolo with key track amplitide.
-... and i ran out of memory on the string model again. this happened last time as well. have to switch some stuff up on that model. so that model wasn't updated beyond LFO2 mode 1. Wavetable also got update, but haven't updaetd spreadsheet yet; LFO2[x]LFO on channel 1, LFO2 only on channel 2.
-
+... and i ran out of memory on the string model again. this happened last time as well. have to switch some stuff up on that model. so that model wasn't updated beyond LFO2 mode 1. Wavetable also got update, but haven't updaetd spreadsheet yet; LFO2[x]LFO on channel 1, LFO2 only on channel 2. download M5_demo_oscillators_3 for latest models.
+-------------------------------------
 [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more. (download M5 demo oscillators 2).
 
 finished Envelope options:
