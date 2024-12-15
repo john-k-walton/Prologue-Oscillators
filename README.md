@@ -11,6 +11,8 @@ first half of LFO2 mode finished. four options are provided:
 
 Enter LFO2 mode 1 & 2 with Attack Mode = '0'. +/- Decay Mode will set the LFO2 frequency; + LFO2+LFO, - LFO2*LFO.
 
+fun tip: layer VAsync with WTA. wowser! 
+
 -------------------------------------
 [12/13/24] models are now mostly playable. only the LFO2 implementation and some fine tuning of timing ranges after playing them a more. (download M5 demo oscillators 2).
 
