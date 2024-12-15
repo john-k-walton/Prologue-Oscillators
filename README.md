@@ -5,6 +5,7 @@ first half of LFO2 mode finished. four options are provided:
 3. LFO2 appears as slightly damped vibration, with key tracked vibration rate. this provides a pitch dependent vibraphone type of modulation.
 4. LFO2 appears as a damped tremolo with key track amplitude.
 5. BONUS Mode: DoubleZero! no modulation? nah... triphase LFO? hmmm...
+   
 ... and i ran out of memory on the string model again. this happened last time as well. have to switch some stuff up on that model. so that model wasn't updated beyond LFO2 mode 1. Wavetable also got update, but haven't updaetd spreadsheet yet; LFO2[x]LFO on channel 1, LFO2 only on channel 2. download M5_demo_oscillators_3 for latest models.
 
 
