@@ -11,7 +11,8 @@ Envelope Mode: (both exponential and linear attacks are available)
 - Linear Ramp, linearly increasing or decreasing Ramp 
 
 LFO2 Mode:
-- LFO2 (Triangle Wave) + Shape LFO; LFO's are summed linearly.
+- LFO2 (Triangle wave)
+- LFO2 + Shape LFO; LFO's are summed linearly.
 - LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation
 - Key Tracked LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Key Tracked LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
