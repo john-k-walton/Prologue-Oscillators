@@ -1,4 +1,35 @@
-[NEW] [12/14/24]
+[NEW] [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
+
+The final list of modulations are:
+1. Shape LFO, built in Logue hardware LFO
+
+Envelope Mode: (both exponential and linear attacks are available)
+2. AD, Attack, Decay envelope.
+3. ASR, Attack, Sustain, Release type envelope
+4. ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay
+5. ADSR 70%, an ADSR with 70% Sustain level. Release is a fixed multiple of Decay
+6. Linear Ramp, linearly increasing or decreasing Ramp 
+
+LFO2 Mode:
+7. LFO2 (Triangle Wave) + Shape LFO; LFO's are summed linearly.
+9. LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation
+9. Key Tracked LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
+10. Key Tracked LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
+
+please see included PDF's for directions. here is the traditional control schema description:
+1. Shape - Bias 1; Initial input value for Modulation Channel One
+2. (S)Shape - Bias 2; Initial input value for Modulation Channel Two
+3. Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
+4. Param 2 - Modulation Channel One Intensity
+5. Param 3 - Modulation Channel Two Intensity
+6. Param 4 - Modulation Channel Three Intensity
+7. Param 5 - Attack Mode
+8. Param 6 - Decay Mode
+
+Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
+
+--------------
+[12/14/24]
 first half of LFO2 mode finished. four options are provided:
 1. LFO2 + LFO; both LFO's are added then applied to the modulation channel. this superimposes both LFO's on thehsame channel for dual cresting wave romps. [done]
 2. LFO2 * LFO, LFO's are multiplied together. this envelopes one LFO with the other; as one LFO diminishes it also reduces the other. this provides a 'beathing' LFO type of effect. [done]
