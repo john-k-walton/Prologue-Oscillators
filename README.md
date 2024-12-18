@@ -35,7 +35,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 
 more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a Prologue II/Epilogue will arrive for more controls some day.
 
-**-fixed a bug in Modal and String models. Trigger was too late to render the models accurately. this was the source of the pitch-zip in newly loaded Modal models. also effected the rendering of strings a bit. Modal really sounds great now!
+**-fixed a bug in Modal and String models. Trigger was too late to render the models accurately. also effected the rendering of strings a bit. Modal really sounds great now!
 
 -----------------
 [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
