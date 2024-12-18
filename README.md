@@ -8,7 +8,7 @@ Caveats as follows:new Modulations Channels emphasizing Key Tracking for physica
 
 time to work on documenatation and use tips.... for now, these models are complete. read the rest of this README for back ground.
 
-for best experience, new creating a new preset with a user oscillato that implements bipolar params; please initialize new params immediately by increamenting and decreementing each param by one - the first time through the menu's - then they won't be -100 them next time you see them, and have to crank them up to zero - this is a Logue 'feature'.
+for best experience, new creating a new preset with a user oscillator that implements bipolar params; please initialize new params immediately by increamenting and decreementing each param by one - the first time through the menu's - then they won't be -100 them next time you see them, and have to crank them up to zero - this is a Logue 'feature'.
 
 also, don't expect every sound to be pleasant at first! it's like having a modular inside your polysynth. the control schemas with KT work very well for delicate layered voicing.
 
