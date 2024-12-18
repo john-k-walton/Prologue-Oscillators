@@ -6,8 +6,9 @@ time to work on documenatation and use tips.... for now, these models are comple
 
 for best experience, new creating a new preset with a user oscillato that implements bipolar params; please initialize new params immediately by increamenting and decreementing each param by one - the first time through the menu's - then they won't be -100 them next time you see them, and have to crank them up to zero - this is a Logue 'feature'.
 
-also, don't expect every sound to be pleasant at first! the control schemas with KT work very well for delicate layered voicing.
+also, don't expect every sound to be pleasant at first! it's like having a modular inside your polysynth. the control schemas with KT work very well for delicate layered voicing.
 
+-----------------
 [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
 
 The final list of modulations are:
