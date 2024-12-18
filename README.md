@@ -1,3 +1,7 @@
+M5 Multidimensional Modulation Schema for Plaits on Prologue 
+
+"It's like a having a Modular inside your keyboard!"
+
 [NEW] [12/18/24] RC1 posted. Please refer to Emilie's original manual for information about how Plaits models work (https://pichenettes.github.io/mutable-instruments-documentation/modules/plaits/manual/) the models themselves have *no* modifications other than Strings is monophonic - model polyphony unneeded for a polysynth, useful AUX models were split off as their own models to free up the AUX Mix input for modulation controls. some models needed functional disaggregation to fit into 32kb; Wavetables, Chords, Speech, and some of the 1.2 models. Classic Waveforms and VCF form 1.2 is included here. more 1.2's to come.
 
 Caveats as follows:new Modulations Channels emphasizing Key Tracking for physical models and drum modes, will have some changes there over time. KT is more useful with these models than a complex LFO modulation.  still tweaking a few things, but these are as done as they are going to be for a while as String model has about 100 bytes of free space left. the memory for the String is large for better fidelity. withheld hihat, something wonky with the AUX side still. FM needs some ideas though, I'm not big on FM. 
