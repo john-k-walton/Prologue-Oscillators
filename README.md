@@ -1,4 +1,4 @@
-[NEW] [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
+[NEW] [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. (welp, it was today! withheld the hihat, something wonky on the AUX side. )
 
 The final list of modulations are:
 - Shape LFO, built in Logue hardware LFO
