@@ -27,15 +27,17 @@ LFO2 Mode:
 - Key Tracked LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Key Tracked LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
-please see included PDF's for directions. here is the traditional control schema description:
+please see included PDF's for directions. here is the traditional control schema description that is app;licable across all user oscillators:
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
 - Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
-- Param 2 - Modulation Channel One Intensity
-- Param 3 - Modulation Channel Two Intensity
-- Param 4 - Modulation Channel Three Intensity
-- Param 5 - Attack Mode
-- Param 6 - Decay Mode
+- Param 2 - Modulation Channel One Intensity* 
+- Param 3 - Modulation Channel Two Intensity*
+- Param 4 - Modulation Channel Three Intensity*
+- Param 5 - Attack Mode*
+- Param 6 - Decay Mode*
+
+*- refer for all models except Wave tables refer to M5 Modulation Channel Assignment and Control Mapping.PDF. Wavetables as described in M5 Wavetable Channel Assignment and Control Mapping.PDF.
 
 Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
 
