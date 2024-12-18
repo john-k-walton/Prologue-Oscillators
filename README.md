@@ -30,7 +30,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Clean/Harsh; simulation of hi hat; on hold for now.
-- Virtual VCF; classic waveforms with 12/24db VCF (1.2 model)
+- Virtual VCF; classic waveforms with 12/24db LP VCF (1.2 model) HP version in next RC.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Wavecycles arranged in a 2D table for modulatin in two directions.
 
 more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a Prologue II/Epilogue will arrive for more controls some day.
