@@ -8,7 +8,7 @@ for best experience, new creating a new preset with a user oscillato that implem
 
 also, don't expect every sound to be pleasant at first! it's like having a modular inside your polysynth. the control schemas with KT work very well for delicate layered voicing.
 
-the following Oscillators are available today:
+the following 24 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 mki (except VCF, have to fix framesize in 1.2 codebase).
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
 - Tides; Wavefolder found in Tides.
