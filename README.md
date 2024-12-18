@@ -1,4 +1,10 @@
-[NEW] [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. (welp, it was today! withheld the hihat, something wonky on the AUX side. )
+[new] [12/18/24] RC1 posted. Please refer to Emilie's original manual for information about how Plaits models work (https://pichenettes.github.io/mutable-instruments-documentation/modules/plaits/manual/) the models themselves have *no* modifications other than Strings is monophonic - model polyphony unneeded for a polysynth, useful AUX models were split off as their own models to free up the AUX Mix input for modulation controls. some models needed functional disaggregation to fit into 32kb; wavetables, Chords, Speech, and some of the 1.2 models. Classic Waveforms and VCF form 1.2 is included here. more 1.2's to come.
+
+Caveats as follows:new Modulations Channels emphasising Key Tracking for physical models and drum modes, will have some changes there over time. KT is more useful with these models than a complex LFO modulation.  still tweaking a few things, but these are as done as they are going to be for a while as String model has about 100 bytes of free space left. the memory for the String is large for better fidelity. withheld hihat, something wonky with the AUX side still. FM needs some ideas though, I'm not big on FM. 
+
+time to work on documenatation and use tips.... for now, these models are complete.
+
+[12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
 
 The final list of modulations are:
 - Shape LFO, built in Logue hardware LFO
