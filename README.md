@@ -8,6 +8,29 @@ for best experience, new creating a new preset with a user oscillato that implem
 
 also, don't expect every sound to be pleasant at first! it's like having a modular inside your polysynth. the control schemas with KT work very well for delicate layered voicing.
 
+the following Oscillators are available today:
+- VA; Virtual Analog with classic waveforms.
+- VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
+- Tides; Wavefolder found in Tides.
+- Warps; Wavefolder found in Warps.
+- FM; 1 and 2 operator Frequency Modulation with variable feedback.
+- Grain; Granular formant synthesis.
+- Zbraids; filter simulation with Peaking/LP/BP/HP response.
+- Additive; Additive mixture of harmonically related sine waves.
+- SWARM; Granular swarm of 8 enveloped SAW Waves. great for super saw and massive detuned effects.
+- Particle; Dust noise processed by networks of all-pass or band-pass filters.
+- Noise; Variable-clock white noise processed by a resonant filter.
+- NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
+- String; physical model of inharmonic vibrating string; Karplus-Strong.
+- Modal; phsycial model of modal resonator.
+- Bassdrum Analog/Synth; simulation of bass drum.
+- Snare Analog/Synth; simulation of snare drum.
+- Hi Hat Clean/Harsh; simulation of hi hat; on hold for now.
+- Virtual VCF; classic waveforms with 12/24db VCF (1.2 model)
+- Wta-Wtf; Plaits 2D Wavetables. 32 Wavecycles arranged in a 2D table for modulatin in two directions.
+
+more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a Prologue II/Epilogue will arrive for more controls some day.
+
 -----------------
 [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
 
