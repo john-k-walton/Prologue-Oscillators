@@ -43,6 +43,9 @@ LFO2 Mode:
 - Key Tracked LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Key Tracked LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
+Key Tracking Mode:
+- Key Tracking + Bipolar Shape LFO; various combinations of KEy Tracking and Shape LFO.
+
 please see included PDF's for directions. here is the traditional control schema description that is app;licable across all user oscillators:
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
