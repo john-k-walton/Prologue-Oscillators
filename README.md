@@ -19,7 +19,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 - Modal; physical model of modal resonator.
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
-- Hi Hat Clean/Harsh; simulation of hi hat; on hold for now.
+- Hi Hat Harsh/Clean; simulation of hi hat; on hold for now.
 - Virtual VCF; classic waveforms with 12/24db LP VCF (1.2 model) HP version in next RC.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Wavecycles arranged in a 2D table for modulatin in two directions.
 
