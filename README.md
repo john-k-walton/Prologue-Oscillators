@@ -16,7 +16,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 - Noise; Variable-clock white noise processed by a resonant filter.
 - NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
 - String; physical model of inharmonic vibrating string; Karplus-Strong.
-- Modal; phsycial model of modal resonator.
+- Modal; physical model of modal resonator.
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Clean/Harsh; simulation of hi hat; on hold for now.
