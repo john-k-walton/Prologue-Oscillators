@@ -30,6 +30,7 @@ The final list of modulations are:
 - Key Tracking.
 
 Envelope Mode: (both exponential and linear attacks are available)
+- Exponential or Linear Emvelope Attack defined per model. Pitched Spectral modales receive Exponential, others prefer Linear.
 - AD, Attack, Decay envelope.
 - ASR, Attack, Sustain, Release type envelope.
 - ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay.
