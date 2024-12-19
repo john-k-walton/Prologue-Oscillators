@@ -26,7 +26,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a Prologue II/Epilogue will arrive for more controls some day.
 
 The final list of modulations are:
-- Shape LFO, built in Logue hardware LFO
+- Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
 
 Envelope Mode: (both exponential and linear attacks are available)
