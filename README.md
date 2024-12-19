@@ -70,6 +70,7 @@ also, don't expect every sound to be pleasant at first!
 
 -----------------
 [12/17/24] finished LFO2 mode. just some model tweaking and cleanup to do on some models, then i'll post the lot of them as release candidates today or tomorrow. 
+
 --------------
 [12/14/24]
 first half of LFO2 mode finished. four options are provided:
