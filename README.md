@@ -36,7 +36,7 @@ Envelope Mode: (both logarithmic and linear attacks are available)
 - ASR, Attack, Sustain, Release type envelope.
 - ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay.
 - ADSR 70%, an ADSR with 70% Sustain level. Release is a fixed multiple of Decay.
-- Linear Ramp, linearly increasing or decreasing Ramp. (Decay +100, Attack to taste).
+- Linear Ramp, linearly increasing or decreasing Ramp. (set Decay +100, Attack to taste).
 
 LFO2 Mode:
 - LFO2 (Triangle wave). approx 0.50hz to 1.5hz; or 16hz when used with Key Tracking.
