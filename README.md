@@ -60,7 +60,7 @@ here is the traditional control schema description. it is the same across all M5
 - Param 5 - Attack Mode*
 - Param 6 - Decay Mode*
 
-*- refer for all models except Wave tables refer to M5 Modulation Channel Assignment and Control Mapping.PDF. Wavetables as described in M5 Wavetable Channel Assignment and Control Mapping.PDF.
+*- for all models except Wavetables refer to M5 Modulation Channel Assignment and Control Mapping.PDF; Wavetables as described in M5 Wavetable Channel Assignment and Control Mapping.PDF.
 
 Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
 
