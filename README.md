@@ -50,7 +50,7 @@ Key Tracking Mode:
 
 please see included PDF's for detailed directions. 
 
-here is the traditional control schema description. it is the same across all M5 user oscillators:
+here is the traditional control schema description. it is the same across all M5 user oscillators. think of a cube as the sonic space of each model, then the three inputs navigate that sonic space in a time varying fashion. modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
 - Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
