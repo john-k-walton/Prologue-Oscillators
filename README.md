@@ -28,7 +28,7 @@ more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a 
 The final list of modulations are:
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- Note Velocity; thanks for Tsonic's Logue Front Panel project! currently only on Prologue with RC3.
+- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on Prologue with RC3.
 
 Envelope Mode: (both logarithmic and linear attacks are available)
 - Logarithmic or Linear Envelope Attack is defined per model. Pitched Spectral modales receive Log, others prefer Linear.
