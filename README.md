@@ -31,7 +31,7 @@ The final list of modulations are:
 - Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on Prologue with RC3.
 
 Envelope Mode: (both logarithmic and linear attacks are available)
-- Logarithmic or Linear Envelope Attack is defined per model. Pitched Spectral modales receive Log, others prefer Linear.
+- Logarithmic or Linear Envelope Attack is defined per model. Pitched Spectral models receive Log, others prefer Linear. Log Attack features 'advance to Decay on Note off' for more dynamic behavior. 
 - AD, Attack, Decay envelope.
 - ASR, Attack, Sustain, Release type envelope.
 - ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay.
