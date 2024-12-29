@@ -39,11 +39,11 @@ Envelope Mode: (both logarithmic and linear attacks are available)
 - Linear Ramp, linearly increasing or decreasing Ramp. (set Decay +100, Attack to taste).
 
 LFO2 Mode:
-- LFO2 (Triangle wave). approx 0.50hz to 1.5hz; or 16hz when used with Key Tracking.
+- LFO2 (Triangle wave). approx 0.50hz to 1.5hz; Tremolo has a higher range.
 - LFO2 + Shape LFO; LFO's are summed linearly.
 - LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation.
-- Key Tracked LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
-- Key Tracked LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
+- Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
+- Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
 Key Tracking Mode:
 - Key Tracking + Bipolar Shape LFO; various combinations of Key Tracking and Shape LFO.
