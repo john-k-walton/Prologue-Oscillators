@@ -44,7 +44,7 @@ LFO2 Mode:
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
 Key Tracking Mode:
-- Key Tracking + Bipolar Shape LFO; various combinations of Key Tracking and Shape LFO.
+- Key Tracking + Bipolar Shape LFO; Key Tracked modulations with additonal Key Track Velocity modes.
 
 please see included PDF's for detailed directions. 
 
