@@ -77,4 +77,4 @@ License and credit files included for the generous open source for Plaits and Lo
 
 
 -------------------
-[NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD for the moment. i am down to only a few bytes on the String model, so the next spin will be a ripup and rewrite of that with special schema, along with Model. i need to intergrate the 1.2 codebase. too many gotchas to managing two codebases of so many models on several platforms. no schedule for this at the moment, it's time to get back to playing after working on them. :0)
+[NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD for the moment. i am down to only a few bytes on the String model, so the next spin will be a ripup and rewrite of that with special schema, along with Model. i need to intergrate the 1.2 codebase. too many gotchas to managing two codebases of so many models on several platforms. no schedule for this at the moment, it's time to get back to playing after working on them. :0) Zipfile's contain all PDF's, licenses, and plugins.
