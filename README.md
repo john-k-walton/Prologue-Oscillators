@@ -58,9 +58,9 @@ here is the traditional control schema description. it is the same across all M5
 - Param 5 - Attack Mode*
 - Param 6 - Decay Mode*
 
-*- for all models except Wavetables refer to M5 Modulation Channel Assignment and Control Mapping.PDF; Wavetables as described in M5 Wavetable Channel Assignment and Control Mapping.PDF.
+*- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF.
 
-Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
+modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. please see PDF's for details.
 
 Pro Tip:
 when initializing a new model, proceed to MultiEngine Param Menu and *immediataly* increment and decrement each Param 1-6 in turn. this will do two labor saving things for you: 
