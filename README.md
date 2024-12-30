@@ -2,7 +2,7 @@ M5 Multidimensional Modulation Schema for Plaits on Prologue
 
 "It's like a having a whole Modular inside your keyboard!"
 
-the following 24 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
+the following 23 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
 - Tides; Wavefolder found in Tides.
