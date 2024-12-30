@@ -62,6 +62,14 @@ here is the traditional control schema description. it is the same across all M5
 
 Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
 
+Pro Tip:
+when initializing a new model, proceed to MultiEngine Param Menu and *immediataly* increment and decrement each Param 1-6 in turn. this will do two labor saving things for you: 
+1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. keep in mind that the Params the Voice cards see's is -100, the Front panel just isn't in sync. this is known bug/feature of Logue.
+2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift key to move leftward in the Params menus.
+
+
+
+
 -------------------
 [NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD. 
 
