@@ -2,7 +2,7 @@ M5 Multidimensional Modulation Schema for Plaits on Prologue
 
 "It's like a having a whole Modular inside your keyboard!"
 
-the following 24 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 mki (except VCF, have to fix framesize in M5 Plaits 1.2 codebase for the NTS's).
+the following 24 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 mki
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
 - Tides; Wavefolder found in Tides.
@@ -20,10 +20,8 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Harsh/Clean; simulation of hi hat; on hold for now.
-- Virtual VCF; classic waveforms with 12/24db LP VCF (1.2 model) HP version in next RC.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Wavecycles arranged in a 2D table for modulatin in two directions.
 
-more 1.2 models in the works, as well as Chord and Speech from 1.0. hopefully a Prologue II/Epilogue will arrive for more controls some day.
 
 The final list of modulations are:
 - Shape LFO, built in Logue hardware LFO.
@@ -65,7 +63,10 @@ here is the traditional control schema description. it is the same across all M5
 Attack and Decay Mode combinations select modulation types and Modulation Channel assignments. please see PDF's for details.
 
 -------------------
-[NEW] [12/20/24] Started work with Tsonic's open source Front Panel code for firmware 2.10. adding note Velocity to models to modulate Timbre Envelope. feature will be in RC3. hmmm... velocity on Prologue works, XD not yet. 
+[NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD. 
+
+-------------------
+[12/20/24] Started work with Tsonic's open source Front Panel code for firmware 2.10. adding note Velocity to models to modulate Timbre Envelope. feature will be in RC3. hmmm... velocity on Prologue works, XD not yet. 
 
 -------------------
 [12/18/24] RC2 (yup, fixed a bug already in String and Modal**) posted. Please refer to Emilie's original manual for information about how Plaits models work (https://pichenettes.github.io/mutable-instruments-documentation/modules/plaits/manual/) the models themselves have *no* modifications other than Strings is monophonic - model polyphony unneeded for a polysynth, useful AUX models were split off as their own models to free up the AUX Mix input for modulation controls. some models needed functional disaggregation to fit into 32kb; Wavetables, Chords, Speech, and some of the 1.2 models. Classic Waveforms and VCF form 1.2 is included here. more 1.2's to come.
