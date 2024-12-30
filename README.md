@@ -22,32 +22,37 @@ the following 23 Oscillators are available today for Prologue, Minilogue XD, and
 - Hi Hat Harsh/Clean; simulation of hi hat; on hold for now.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
 
-The final list of modulations are:
+The available modulations are:
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on XD and Prologue with RC3.
+- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on XD and Prologue with RC3. 
 
-Envelope Mode: (both logarithmic and linear attacks are available)
-- Logarithmic or Linear Envelope Attack is defined per model. Pitched Spectral models receive Log, others prefer Linear. Log Attack features 'advance to Decay on Note off' for more dynamic behavior. 
+Envelope Mode features:
+- Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
+- Pitched Spectral models receive Log, others prefer Linear.
+- Log Attack features 'advance to Decay on Note off' for more dynamic behavior. 
+
+Envelopes:
 - AD, Attack, Decay envelope.
 - ASR, Attack, Sustain, Release type envelope.
 - ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay.
 - ADSR 70%, an ADSR with 70% Sustain level. Release is a fixed multiple of Decay.
 - Linear Ramp, linearly increasing or decreasing Ramp. (set Decay +100, Attack to taste).
 
-LFO2 Mode:
-- LFO2 (Triangle wave). approx 0.50hz to 1.5hz; Tremolo has a higher range.
+LFO2 Mode features:
+- LFO2 (Triangle wave). approx 0.50hz to 1.5hz.
 - LFO2 + Shape LFO; LFO's are summed linearly.
 - LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation.
 - Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
 Key Tracking Mode:
-- Key Tracking + Bipolar Shape LFO; Key Tracked modulations with additonal Key Track Note Velocity modes.
+- Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Key Track Note Velocity response on either Brightness, or Decay.
 
 please see included PDF's. 
 
-here is the traditional control schema description. it is the same across all M5 user oscillators. think of a cube as the sonic space of each model, then the three inputs navigate that sonic space in a time varying fashion. modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
+Traditional control schema:
+The same schema is used across all M5 user oscillators. the three provided inputs describe a three dimensional sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
 - Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
@@ -57,7 +62,7 @@ here is the traditional control schema description. it is the same across all M5
 - Param 5 - Attack Mode*
 - Param 6 - Decay Mode*
 
-*- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF.
+*- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF. Wavetable Schema provides two additional Modulation Channels per input use Key Tracking to skew table access proportional to pitch across wavecycles.
 
 modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. please see PDF's for details. 
 
