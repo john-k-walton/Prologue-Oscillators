@@ -26,7 +26,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 The final list of modulations are:
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on Prologue with RC3.
+- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on XD and Prologue with RC3.
 
 Envelope Mode: (both logarithmic and linear attacks are available)
 - Logarithmic or Linear Envelope Attack is defined per model. Pitched Spectral models receive Log, others prefer Linear. Log Attack features 'advance to Decay on Note off' for more dynamic behavior. 
