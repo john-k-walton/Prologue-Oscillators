@@ -73,7 +73,7 @@ String and Model have an Alternate Modulation mode for EG Velocity Key Tracking 
 
 
 --------------------
-License and credit files provided for the generous open source for Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie and Mark! you rock!
+License and credit files provided for the generous open source for Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter! you rock!
 
 
 -------------------
