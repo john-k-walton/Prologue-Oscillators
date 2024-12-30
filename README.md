@@ -66,7 +66,7 @@ when initializing a new model, proceed to MultiEngine Param Menu and *immediatal
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. keep in mind that the Params the Voice cards see's is -100, the Front panel just isn't in sync. this is known bug/feature of Logue.
 2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift key to move leftward in the Params menus.
 
-best model to start with is the Additive Model w/EG Velocity, or Zbraids. 
+best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's.
 
 String and Modal have an Alternate Modulation mode for EG Velocity Key Tracking instead of LFO's.
 
