@@ -11,7 +11,7 @@ the following 24 Oscillators are available today for Prologue, Minilogue XD, and
 - Grain; Granular formant synthesis.
 - Zbraids; filter simulation with Peaking/LP/BP/HP response.
 - Additive; Additive mixture of harmonically related sine waves.
-- SWARM; Granular swarm of 8 enveloped SAW Waves. great for super saw and massive detuned effects.
+- SWARM; Granular swarm of 8 enveloped SAW Waves.
 - Particle; Dust noise processed by networks of all-pass or band-pass filters.
 - Noise; Variable-clock white noise processed by a resonant filter.
 - NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
