@@ -69,12 +69,12 @@ when initializing a new model, proceed to MultiEngine Param Menu and *immediatal
 
 Start with the Additive Model w/EG Velocity, or Zbraids. 
 
-String and Model have an Alternate Modulation mode for EG Velocity Key Tracking instead of LFO's.
+String and Modal have an Alternate Modulation mode for EG Velocity Key Tracking instead of LFO's.
 
 
 --------------------
-License and credit files provided for the generous open source for Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port! you folks rock!
+License and credit files included for the generous open source for Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port! you folks rock!
 
 
 -------------------
-[NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD. 
+[NEW] [12/29/24] RC3 posted. Note Velocity on all included models. witheld VCF issue with Velocity on XD for the moment. i am down to only a few bytes on the String model, so the next spin will be a ripup and rewrite of that with special schema, along with Model. i need to intergrate the 1.2 codebase. too many gotchas to managing two codebases of so many models on several platforms. no schedule for this at the moment, it's time to get back to playing after working on them. :0)
