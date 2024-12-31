@@ -51,8 +51,6 @@ LFO2 Mode features:
 Key Tracking Mode:
 - Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Key Track Note Velocity response on either Brightness, or Decay.
 
-please see included PDF's. 
-
 **Traditional control schema:**
 
 The same schema is used across all M5 user oscillators. the three provided inputs describe a three dimensional sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
@@ -67,13 +65,13 @@ The same schema is used across all M5 user oscillators. the three provided input
 
 *- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF. Wavetable Schema provides two additional Modulation Channels per input use Key Tracking to skew table access proportional to pitch across wavecycles.
 
-Modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. please see PDF's for details. 
+Modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. Please see PDF for control modulation control mapping.
 
 **Pro Tip:**
 
 When initializing a new model, proceed to MultiEngine Param Menu and *immediataly* increment and decrement each Param 1-6 in turn. this will do two labor saving things for you: 
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. keep in mind that the Params the Voice cards see's is -100, the Front panel just isn't in sync. this is known bug/feature of Logue.
-2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift key to move leftward in the Params menus.
+2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
 
 Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's.
 
