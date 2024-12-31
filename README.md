@@ -27,7 +27,7 @@ the following 23 Oscillators are available today for Prologue, Minilogue XD, and
 - Key Tracking.
 - Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on XD and Prologue with RC3. 
 
-**User Oscillator Builtins:**
+**User Oscillator Built-in Modulations:**
 
 Envelope Mode features:
 - Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
@@ -51,7 +51,7 @@ LFO2 Mode features:
 Key Tracking Mode:
 - Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Key Track Note Velocity response on either Brightness, or Decay.
 
-**Traditional control schema:**
+**Traditional Control Schema Description:**
 
 The same schema is used across all M5 user oscillators. the three provided inputs describe a three dimensional sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
 - Shape - Bias 1; Initial input value for Modulation Channel One
