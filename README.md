@@ -53,7 +53,7 @@ Key Tracking Mode:
 
 **Traditional Control Schema Description:**
 
-The same schema is used across all M5 user oscillators. the three provided inputs describe a three dimensional sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
+The same schema is used across all M5 user oscillators. Plaits provides three inputs that describe a cubic sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
 - Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
