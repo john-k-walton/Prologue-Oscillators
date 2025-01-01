@@ -53,7 +53,7 @@ Key Tracking Mode:
 
 **Traditional Control Schema Description:**
 
-The same schema is used across all M5 user oscillators. Plaits provides three inputs that describe a cubic sonic space for each model. supporting modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
+The same schema is used across all M5 user oscillators. Plaits provides three inputs that describe a cubic sonic space for each model. Modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
 - Shape - Bias 1; Initial input value for Modulation Channel One
 - (S)Shape - Bias 2; Initial input value for Modulation Channel Two
 - Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
@@ -69,8 +69,8 @@ Modulations listed above are accessed via Attack and Decay Mode combinations; se
 
 **Pro Tip:**
 
-When initializing a new model, proceed to MultiEngine Param Menu and *immediataly* increment and decrement each Param 1-6 in turn. this will do two labor saving things for you: 
-1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. keep in mind that the Params the Voice cards see's is -100, the Front panel just isn't in sync. this is known bug/feature of Logue.
+When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn. this will do two labor saving operations for you: 
+1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
 2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
 
 Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's.
