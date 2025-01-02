@@ -82,7 +82,7 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **[NEW] [01/02/25] working on RC4.**
-replaced 3xLFO more with 3xKT mode on model with strong spectral Timbre; the Green models; Additive, Tides, VA, etc... 3xKT mode includes KT on all Mod Channels, plus hardware EG Envelope on Mod Channel 1 with the Front Panel EG Intensity, and LFO appears on Mod Channel 2. thanks again to Mark and his Front Panel code! Red models will keep 3xLFO mode.
+replaced the DoubleZero 3xLFO mode with 3xKT mode on models with strong spectral Timbre; the Green models; Additive, Tides, VA, etc... 3xKT mode includes KT on all Mod Channels, plus hardware EG Envelope on Mod Channel 1 with the Front Panel EG Intensity, and LFO appears on Mod Channel 2. thanks again to Mark and his Front Panel code! Red models will keep 3xLFO mode for now.
 
 -------------------
 **[12/29/24] RC3 posted.** Note Velocity on all included models. witheld VCF issue with Velocity on XD for the moment. also, clean hihat is wonky.  i am down to only a few bytes on the String model, so the next spin will be a ripup and rewrite of that with special schema, along with Modal. i need to finish intregrating the 1.2 codebase; too many gotchas to managing two codebases of so many models on several platforms. i have no schedule for this at the moment, it's time to get back to playing after working on them. :0) Zipfile's contain all PDF's, licenses, and plugins.
