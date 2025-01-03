@@ -49,7 +49,7 @@ LFO Mode features:
 - Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
-Key Tracking Mode for Physicial Models:
+Key Tracking Mode for Physical Models:
 - Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Note Velocity response on either Brightness, or Decay.
 
 **Traditional Control Schema Description:**
