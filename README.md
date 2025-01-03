@@ -30,11 +30,6 @@ the following 23 Oscillators are available today for Prologue, Minilogue XD, and
 
 **User Oscillator Built-in Modulations:**
 
-Envelope Mode features:
-- Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
-- Pitched Spectral models receive Log, others prefer Linear.
-- Log Attack features 'advance to Decay on Note Off' modeling analog synth envelopes for more dynamic behavior. 
-
 Envelopes:
 - AD, Attack, Decay envelope.
 - ASR, Attack, Sustain, Release type envelope.
@@ -42,14 +37,19 @@ Envelopes:
 - ADSR 70%, an ADSR with 70% Sustain level. Release is a fixed multiple of Decay.
 - Linear Ramp, linearly increasing or decreasing Ramp. (set Decay +100, Attack to taste).
 
-LFO2 Mode features:
-- LFO2 (Triangle wave). approx 0.50hz to 1.5hz.
+Envelope Mode features:
+- Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
+- Pitched Spectral models receive Log, others prefer Linear.
+- Log Attack features 'advance to Decay on Note Off' modeling analog synth envelopes for more dynamic behavior. 
+
+LFO Mode features:
+- LFO2 (Triangle wave). approx 0.5hz to 1.5hz.
 - LFO2 + Shape LFO; LFO's are summed linearly.
 - LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation.
 - Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
-Key Tracking Mode:
+Key Tracking Mode for Physicial Models:
 - Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Note Velocity response on either Brightness, or Decay.
 
 **Traditional Control Schema Description:**
