@@ -25,13 +25,14 @@ the following 23 Oscillators are available today for Prologue, Minilogue XD, and
 **The available Platform modulations are:**
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- Note Velocity; thanks to Tsonic's Logue Front Panel project! currently only on XD and Prologue with RC3. 
+- Note Velocity; currently only on XD and Prologue with RC3.
+- Filter EG Envelope; currently only on XD and Prologue with RC4. both thanks to Tsonic's Logue Front Panel project!
 
 **User Oscillator Built-in Modulations:**
 
 Envelope Mode features:
 - Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
-- Pitched Spectral models receive Log, others prefer Linear. 
+- Pitched Spectral models receive Log, others prefer Linear.
 - Log Attack features 'advance to Decay on Note Off' modeling analog synth envelopes for more dynamic behavior. 
 
 Envelopes:
@@ -49,7 +50,7 @@ LFO2 Mode features:
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
 Key Tracking Mode:
-- Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Key Track Note Velocity response on either Brightness, or Decay.
+- Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Note Velocity response on either Brightness, or Decay.
 
 **Traditional Control Schema Description:**
 
