@@ -82,6 +82,10 @@ String and Modal have an Alternate Modulation mode for EG Velocity Key Tracking 
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port! you folks rock!
 
 -------------------
+**[NEW] [01/03/25] RC4/Final Release**
+finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. 
+
+-------------------
 **[NEW] [01/02/25] working on RC4.**
 replaced the DoubleZero 3xLFO mode with 3xKT mode on models with strong spectral Timbre; the Green models; Additive, Tides, VA, etc... 3xKT mode includes KT on all Mod Channels, plus hardware EG Envelope on Mod Channel 1 with the Front Panel EG Intensity, and LFO appears on Mod Channel 2. thanks again to Mark and his Front Panel code! Red models will keep 3xLFO mode for now.
 
