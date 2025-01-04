@@ -23,11 +23,11 @@ the following Oscillators are available today for Prologue, Minilogue XD, and NT
 - Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
 - VCF LP/HP Prologue only.
 
-**The available Platform modulations are:**
+**Logue Platform Modulations available *to* User Oscillator:**
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- EG note Velocity; currently only on XD and Prologue with RC3.
-- Filter EG Envelope; currently only on XD and Prologue with RC4. both thanks to Tsonic's Logue Front Panel project!
+- EG note Velocity.
+- Filter EG Envelope. (Velocity and EG Env access generously provided by Tsonic Front Panel code)
 
 **User Oscillator Built-in Modulations:**
 
@@ -79,7 +79,7 @@ When initializing a new model, proceed to MultiEngine Param Menu and *immediatel
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
 2. now the model is in (Double Zero Mode); a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
 
-Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's.
+Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
 
 String and Modal have an Alternate Modulation mode for EG Velocity Key Tracking instead of LFO's.
 
