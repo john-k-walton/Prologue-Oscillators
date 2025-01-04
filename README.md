@@ -2,7 +2,7 @@
 
 *"It's like a having a whole Modular inside your keyboard!"*
 
-the following 23 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
+the following Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
 - Tides; Wavefolder found in Tides.
@@ -21,6 +21,7 @@ the following 23 Oscillators are available today for Prologue, Minilogue XD, and
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Harsh/Clean; simulation of hi hat; on hold for now.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
+- VCF LP/HP Prologue only.
 
 **The available Platform modulations are:**
 - Shape LFO, built in Logue hardware LFO.
@@ -49,8 +50,12 @@ LFO Mode features:
 - Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
 - Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
 
-Key Tracking Mode for Physical Models:
-- Key Tracking + Shape LFO; Key Tracked modulations per channel with an additional Note Velocity response on either Brightness, or Decay.
+Key Tracking Mode for Physical Models (single mode models):
+- EG Envelope and Shape LFO modulated Inharmonic inputs, with seperate Key Tracking and EG Velocity on Brightness and Decay inputs.
+
+Double Zero Modes:
+- Spectral (Green) Models; two channels of EG Velocity modulated EG Envelope and LFO, with Note Key Tracking on all three Channels.
+- Unpitched (Red) Models; EG Velocity modulated Shape LFO on all three channels. 
 
 **Traditional Control Schema Description:**
 
@@ -72,7 +77,7 @@ Modulations listed above are accessed via Attack and Decay Mode combinations; se
 
 When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn. this will do two labor saving operations for you: 
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
-2. now the model is in 3xLFO mode (Double Zero Mode). a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
+2. now the model is in (Double Zero Mode); a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
 
 Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's.
 
@@ -83,11 +88,4 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **[NEW] [01/03/25] RC4/Final Release**
-finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. 
-
--------------------
-**[NEW] [01/02/25] working on RC4.**
-replaced the DoubleZero 3xLFO mode with 3xKT mode on models with strong spectral Timbre; the Green models; Additive, Tides, VA, etc... 3xKT mode includes KT on all Mod Channels, plus hardware EG Envelope on Mod Channel 1 with the Front Panel EG Intensity, and LFO appears on Mod Channel 2. thanks again to Mark and his Front Panel code! Red models will keep 3xLFO mode for now.
-
--------------------
-**[12/29/24] RC3 posted.** Note Velocity on all included models. witheld VCF issue with Velocity on XD for the moment. also, clean hihat is wonky.  i am down to only a few bytes on the String model, so the next spin will be a ripup and rewrite of that with special schema, along with Modal. i need to finish intregrating the 1.2 codebase; too many gotchas to managing two codebases of so many models on several platforms. i have no schedule for this at the moment, it's time to get back to playing after working on them. :0) Zipfile's contain all PDF's, licenses, and plugins.
+finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
