@@ -26,7 +26,7 @@ the following Oscillators are available today for Prologue, Minilogue XD, and NT
 **The available Platform modulations are:**
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
-- Note Velocity; currently only on XD and Prologue with RC3.
+- EG note Velocity; currently only on XD and Prologue with RC3.
 - Filter EG Envelope; currently only on XD and Prologue with RC4. both thanks to Tsonic's Logue Front Panel project!
 
 **User Oscillator Built-in Modulations:**
