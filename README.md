@@ -76,15 +76,13 @@ Modulations listed above are accessed via Attack and Decay Mode combinations; se
 **Pro Tip:**
 
 When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn. this will do two labor saving operations for you: 
-1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoded a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
-2. now the model is in (Double Zero Mode); a few clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus.
+1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
+2. now the model is in (Double Zero 'Quick' Mode); a few Mode clicks from here takes you any of the modulation modes simply by entering combinations of postive and/or negative values for Attack Mode and Decay Mode. remember to use the Shift-Shortcut key to move leftward in the Params menus, much easier than going around and around.
 
-Best model to start with is the Additive Model w/EG Velocity, or Zbraids. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
-
-String and Modal have an Alternate Modulation mode for EG Velocity Key Tracking instead of LFO's.
+Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
 
 --------------------
-License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port! you folks rock!
+License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
 **[NEW] [01/03/25] RC4/Final Release**
