@@ -85,5 +85,9 @@ Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't f
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
-**[NEW] [01/03/25] RC4/Final Release**
+**[NEW] [01/07/25] RC5 optional**
+optional release includes on Spectral Model ONLY an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
+
+-------------------
+**[01/03/25] RC4/Final Release**
 finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
