@@ -86,7 +86,7 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **[NEW] [01/07/25] RC5 optional**
-optional release includes on Spectral Model ONLY an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
+release includes changes only to Spectral Models; an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
 both RC4 and RC5 are fun for the whole family and provides hours of entertainment! 
 
 -------------------
