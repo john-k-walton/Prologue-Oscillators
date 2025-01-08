@@ -71,7 +71,7 @@ The same schema is used across all M5 user oscillators. Plaits provides three in
 
 *- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF. Wavetable Schema provides two additional Modulation Channels per input use Key Tracking to skew table access proportional to pitch across wavecycles.
 
-Modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. Please see PDF for control modulation control mapping.
+Modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. Please see PDF for modulation and control mapping.
 
 **Pro Tip:**
 
