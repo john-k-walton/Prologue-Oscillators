@@ -27,7 +27,7 @@ the following Oscillators are available today for Prologue, Minilogue XD, and NT
 - Shape LFO, built in Logue hardware LFO.
 - Key Tracking.
 - EG note Velocity.
-- Filter EG Envelope. (Velocity and EG Env access generously provided by Tsonic Front Panel code)
+- Filter EG Envelope. (Velocity and EG Env access generously provided by Tsonic Front Panel code - not available on NTS)
 
 **User Oscillator Built-in Modulations:**
 
