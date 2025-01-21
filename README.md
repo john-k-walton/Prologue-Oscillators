@@ -53,8 +53,8 @@ LFO Mode features:
 Key Tracking Mode for Physical Models (single mode models):
 - EG Envelope and Shape LFO modulated Inharmonic inputs, with seperate Key Tracking and EG Velocity on Brightness and Decay inputs.
 
-Double Zero Modes:
-- Spectral (Green) Models; two channels of EG Velocity modulated EG Envelope and LFO, with Note Key Tracking on all three Channels.
+Double Zero "Quick" Modes:
+- Spectral (Green) Models; two channels of EG Velocity modulated by EG Envelope and LFO, with Note Key Tracking on all three Channels. great starting modulations!
 - Unpitched (Red) Models; EG Velocity modulated Shape LFO on all three channels. 
 
 **Traditional Control Schema Description:**
