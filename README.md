@@ -54,7 +54,7 @@ Key Tracking Mode for Physical Models (single mode models):
 - EG Envelope and Shape LFO modulated Inharmonic inputs, with seperate Key Tracking and EG Velocity on Brightness and Decay inputs.
 
 Double Zero "Quick" Modes:
-- Spectral (Green) Models; two channels of EG Velocity modulated by EG Envelope and LFO, with Note Key Tracking on all three Channels. great starting modulations!
+- Spectral (Green) Models; two channels of EG Velocity modulated by EG Envelope and LFO, with Note Key Tracking on all three Channels. great starting modulations! see Pro Tip 2.
 - Unpitched (Red) Models; EG Velocity modulated Shape LFO on all three channels. 
 
 **Traditional Control Schema Description:**
