@@ -86,7 +86,7 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **[NEW] [01/27/25] VAupdate.zip**
-VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode are easier to tune.
+VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode can be tuned to repeatable pitches with LFO modulations. 
 
 -------------------
 **[01/07/25] RC5 optional**
