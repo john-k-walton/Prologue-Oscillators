@@ -85,7 +85,11 @@ Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't f
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity, EG Envelope and EG_INT) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
-**[NEW] [01/07/25] RC5 optional**
+**[NEW] [01/27/25] VAupdate.zip**
+VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode are easier to tune.
+
+-------------------
+**[01/07/25] RC5 optional**
 release includes changes only to Spectral Models; an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
 both RC4 and RC5 are fun for the whole family and provides hours of entertainment! 
 
