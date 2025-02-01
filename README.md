@@ -88,7 +88,7 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **[NEW] [02/01/25] WT_Braids.zip**
-took a while to remember what i had done before. today, five Braids wavetables are included in WT_Braids in the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
+took a while to remember what i had done before. today, five Braids wavetables originated for the M4 project are included in WT_Braids with the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
 
 -------------------
 **[01/27/25] VAupdate.zip**
