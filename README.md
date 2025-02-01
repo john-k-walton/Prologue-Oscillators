@@ -2,6 +2,8 @@
 
 *"It's like a having a whole Modular inside your keyboard!"*
 
+[check the bottom of this README for updates still happening regularly!]
+
 the following Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
@@ -85,7 +87,11 @@ Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't f
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity, EG Envelope and EG_INT) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
-**[NEW] [01/27/25] VAupdate.zip**
+**[NEW] [02/01/25] WT_Braids.zip**
+took a while to remember what i had done before. today, five Braids wavetables are included in WT_Braids in the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
+
+-------------------
+**[01/27/25] VAupdate.zip**
 VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode can be tuned to repeatable pitches with LFO modulations. 
 
 -------------------
