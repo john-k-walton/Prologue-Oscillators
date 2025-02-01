@@ -87,18 +87,20 @@ Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't f
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity, EG Envelope and EG_INT) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
+**RELEASE HISTORY:**
+
 **[NEW] [02/01/25] WT_Braids.zip**
 took a while to remember what i had done before. today, five Braids wavetables originated for the M4 project are included in WT_Braids with the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
 
 -------------------
-**[01/27/25] VAupdate.zip**
+[01/27/25] VAupdate.zip
 VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode can be tuned to repeatable pitches with LFO modulations. 
 
 -------------------
-**[01/07/25] RC5 optional**
+[01/07/25] RC5 optional
 release includes changes only to Spectral Models; an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
 both RC4 and RC5 are fun for the whole family and provides hours of entertainment! 
 
 -------------------
-**[01/03/25] RC4/Final Release**
+[01/03/25] RC4/Final Release
 finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
