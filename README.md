@@ -101,3 +101,6 @@ both RC4 and RC5 are fun for the whole family and provides hours of entertainmen
 
 [01/03/25] RC4/Final Release
 finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
+
+-------------------
+I don't like to code at all, but i do love music, so exceptions were made and these oscillators were the latest result. this is what i play, mostly jazz: https://soundcloud.com/john-walton-732877645/sets/we-must-go 
