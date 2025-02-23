@@ -84,6 +84,9 @@ When initializing a new model, proceed to MultiEngine Param Menu and *immediatel
 Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
 
 --------------------
+Model demos: https://soundcloud.com/john-walton-732877645/sets/model-demonstrations
+
+--------------------
 License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity, EG Envelope and EG_INT) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
 
 -------------------
@@ -101,6 +104,3 @@ both RC4 and RC5 are fun for the whole family and provides hours of entertainmen
 
 [01/03/25] RC4/Final Release
 finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
-
--------------------
-I don't like to code at all, but i do love music, so exceptions were made and these oscillators were the latest result. this is what i play, mostly jazz: https://soundcloud.com/john-walton-732877645/sets/we-must-go 
