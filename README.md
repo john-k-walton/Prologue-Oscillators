@@ -2,7 +2,7 @@
 
 *"It's like a having a whole Modular inside your keyboard!"*
 
-[check the bottom of this README for PliatsXplorer news!] 
+[check the bottom of this README for PlaitsXplorer news!] 
 
 the following Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
 - VA; Virtual Analog with classic waveforms.
