@@ -92,17 +92,22 @@ License and credit files included for the very generous open source developers o
 -------------------
 **RELEASE HISTORY:**
 **[NEW][03/15/25]** PlaitsXplorer Draft DOCS posted
+
 PlaitsXplorer turns your hybrid synthesizer into a full digital knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) westlign away the analog controls to instance additional modulation controls for increased user oscillator modulation flexibility. Wildly Wield two Envelopes, Two LFO's, Key Tracking, and Note Velocity all concurrently matrix modulating with wild abandon! seriously, this is wack stuff on the Prologue. on a Prlogue 16 with layering you can get the Analog back and another digital oscillator!
 
 [02/01/25] WT_Braids.zip
+
 took a while to remember what i had done before. today, five Braids wavetables originated for the M4 project are included in WT_Braids with the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
 
 [01/27/25] VAupdate.zip
+
 VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode can be tuned to repeatable pitches with LFO modulations. 
 
 [01/07/25] RC5 optional
+
 release includes changes only to Spectral Models; an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
 both RC4 and RC5 are fun for the whole family and provides hours of entertainment! 
 
 [01/03/25] RC4/Final Release
+
 finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
