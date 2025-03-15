@@ -91,8 +91,10 @@ License and credit files included for the very generous open source developers o
 
 -------------------
 **RELEASE HISTORY:**
+**[NEW][03/15/25]** PlaitsXplorer Draft DOCS posted
+PlaitsXplorer turns your hybrid synthesizer into a full digital knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) westlign away the analog controls to instance additional modulation controls for increased user oscillator modulation flexibility. Wildly Wield two Envelopes, Two LFO's, Key Tracking, and Note Velocity all concurrently matrix modulating with wild abandon! seriously, this is wack stuff on the Prologue. on a Prlogue 16 with layering you can get the Analog back and another digital oscillator!
 
-**[NEW] [02/01/25] WT_Braids.zip**
+[02/01/25] WT_Braids.zip
 took a while to remember what i had done before. today, five Braids wavetables originated for the M4 project are included in WT_Braids with the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
 
 [01/27/25] VAupdate.zip
