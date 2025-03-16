@@ -94,7 +94,7 @@ License and credit files included for the very generous open source developers o
 
 **[NEW][03/15/25]** PlaitsXplorer Draft DOCS posted
 
-PlaitsXplorer turns your hybrid synthesizer into a full digital knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of seventeen digital engine controls. Wield two Envelopes, Two LFO's, Key Tracking, and Note Velocity with wild abandon, all concurrently in a modulation madness of madness! seriously, this is wack stuff on the Prologue.
+PlaitsXplorer turns your hybrid synthesizer into a full digital knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield combinations of two Envelopes, Two LFO's, Key Tracking, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this is wack stuff on the Prologue.
 
 [02/01/25] WT_Braids.zip
 
