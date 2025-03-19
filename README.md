@@ -4,6 +4,10 @@
 
 PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a PlaitStation; a fully digital fully knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield Front Panel controls to sculpt modulations containing combinations of two Envelopes, Two LFO's, Key Tracking, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this is wack stuff expressed fairly well on the Prologue. there's only menu diving for modulation programming: the LFO2 rate, three KT settings and the MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! binaries coming soon!
 
+PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
+
+M5 demos below are more extreme examples to show range of the implemented modulations, you can get a lot going on which has always been a claimed shortcoming of Prologue, not enough LFO's and Envelopes. I would still rather have a dedicated performance LFO for vibrato, but the Vibrato Chorus is an acceptable 2nd. 
+
 and as always the keyboard use case oriented M5 series is also available. 
 
 [check the bottom of this README for PlaitsXplorer news!] 
