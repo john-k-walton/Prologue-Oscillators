@@ -6,7 +6,7 @@ PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a 'PlaitStation'
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
-M5 demos below are more extreme examples to show range of the implemented modulations, you can get a lot going on which has always been a claimed shortcoming of Prologue, not enough LFO's and Envelopes. I would still rather have a dedicated performance LFO for vibrato, but the Vibrato Chorus is an acceptable 2nd. 
+M5 demos below are more extreme examples the show range of the implemented modulations. 
 
 and as always the keyboard use case oriented M5 series is also available. 
 
