@@ -6,6 +6,8 @@ PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a 'PlaitStation'
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
+[still working on finishing up the LFO3/S+H RC for PlaitsXplorer]
+
 M5 demos below are more extreme examples the show range of the implemented modulations. 
 
 and as always the keyboard use case oriented M5 series is also available. 
