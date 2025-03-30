@@ -14,7 +14,7 @@ and as always the keyboard use case oriented M5 series is also available.
 
 [check the bottom of this README for PlaitsXplorer news!] 
 
-the following Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
+the following M5 Oscillators are available today for Prologue, Minilogue XD, and NTS-1 MKI
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
 - Tides; Wavefolder found in Tides.
