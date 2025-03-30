@@ -8,6 +8,29 @@ PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a 'PlaitStation'
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
+the following PlaitsXplorer Oscillators are available today for Prologue, Minilogue XD
+
+VA; Virtual Analog with classic waveforms.
+VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
+Tides; Wavefolder found in Tides.
+Warps; Wavefolder found in Warps.
+FM; 1 and 2 operator Frequency Modulation with variable feedback.
+Grain; Granular formant synthesis.
+Zbraids; filter simulation with Peaking/LP/BP/HP response.
+Additive; Additive mixture of harmonically related sine waves.
+SWARM; Granular swarm of 8 enveloped SAW Waves.
+Particle; Dust noise processed by networks of all-pass or band-pass filters.
+Noise; Variable-clock white noise processed by a resonant filter.
+NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
+Bassdrum Analog/Synth; simulation of bass drum.
+Snare Analog/Synth; simulation of snare drum.
+Hi Hat Harsh/Clean; simulation of hi hat; on hold for now.
+Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
+Braids Wavetable; Jazz, Clank, India, Voices, Strings 2D Braids wavetables.
+VCF 1.2 LP/HP - Prologue only.
+
+use M5 String and Model models for now. PlaitsXplorer has bumped into memory limits on Pstrings and wavetables. wavetables do not use Mod Channel 3 on Shape/Shift-Shape. since there's no memory left... probably not going to do more than add the Lofi mix back into the wavetables. an interpolation mix might work as well... no promises.
+
 -----------------
 Plus M5 Multidimensional Modulation schema for Prologue, XD and NTS-1 mki. M5 is a curated set of modulation for Plaits on Prologue that do not use the VCO section. these are most useful for full 16 voice Plaits w/VCO's. PlaitsXplorer is more focused on Digital only. 
 
