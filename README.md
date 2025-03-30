@@ -26,7 +26,7 @@ the following PlaitsXplorer Oscillators are available today for Prologue, Minilo
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Harsh/Clean; simulation of hi hat.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
-- Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables.
+- Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables (prologue only for now)
 - VCF 1.2 LP/HP - Prologue only.
 
 use M5 String and Model models for now. PlaitsXplorer has bumped into memory limits on Pstrings and wavetables. wavetables do not use Mod Channel 3 on Shape/Shift-Shape. since there's no memory left... probably not going to do more than add the Lofi mix back into the wavetables. an interpolation mix might work as well... no promises.
