@@ -2,15 +2,16 @@
 
 *"It's like a having a whole Modular inside and outside your keyboard!"*
 
-PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a 'PlaitStation'; a digital polyphonic, fully knobby, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniqs Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield Front Panel controls to sculpt modulations containing combinations of two Envelopes, Two LFO's, Key Tracking, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this is wack stuff expressed fairly well on the Prologue. the only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! Demo Binaries Avilable NOW!
+**ALL RC1 binaries are up** see DOC and IMG for infos.
+
+PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniqs Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw;tremolo and vibrato options, Shape LFO, Key Tracking on all inputs, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this is wack stuff expressed fairly well on the Prologue. the only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! Demo Binaries Avilable NOW!
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
-[still working on finishing up the LFO3/S+H RC for PlaitsXplorer]
+-----------------
+Plus M5 Multidimensional Modulation schema for Prologue, XD and NTS-1 mki. M5 is a curated set of modulation for Plaits on Prologue that do not use the VCO section. these are most useful for full 16 voice Plaits w/VCO's. PlaitsXplorer is more focused on Digital only. 
 
 M5 demos below are more extreme examples the show range of the implemented modulations. 
-
-and as always the keyboard use case oriented M5 series is also available. 
 
 [check the bottom of this README for PlaitsXplorer news!] 
 
