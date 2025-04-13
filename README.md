@@ -1,6 +1,6 @@
 **PlaitsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
 
-*"It's like a having a whole Modular inside and outside your keyboard!"*
+*"It's like a having a whole Modular inside your keyboard!"*
 
 **ALL PlaitsXplorer RC1 binaries are up** see DOC and IMG for infos.
 
