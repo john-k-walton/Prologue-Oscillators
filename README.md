@@ -10,7 +10,7 @@ PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplo
 
 the following PlaitsXplorer Oscillators are available today for Prologue, Minilogue XD
 
-**XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls. Prologue is solid in both M5 and Xplorer releases, and brilliantly fun!**
+**XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls. Prologue is pretty solid in both M5 and Xplorer releases, and brilliantly fun! just working on some documentation and programming tips**
 
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
