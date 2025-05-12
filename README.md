@@ -2,7 +2,8 @@
 
 *"It's like a having a whole Modular inside your keyboard!"*
 
-**ALL PlaitsXplorer RC1 binaries are up** see DOC and IMG for infos.
+
+**sorry RC2 is taking a while. it's tough to balance all these oscillators with the same schema and the memory constriants. it's coming along nicely for prologue though. last thing is to finalize the Attack Timing for Built-ins and finish some documentation.**
 
 PlaitsXplorer turns your Prologue or (XD on hold for now) hybrid synthesizer into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniqs Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw;tremolo and vibrato options, Shape LFO, Key Tracking on all inputs, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this version provides terrific control of Plaits all from the confort of the front panel. the only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
 
