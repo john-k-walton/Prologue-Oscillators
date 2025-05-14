@@ -1,3 +1,4 @@
+![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
 **PlaitsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
 
 *"It's like a having a whole Modular inside your keyboard!"*
