@@ -97,7 +97,8 @@ Modulations listed above are accessed via Attack and Decay Mode combinations; se
 When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn. this will do two labor saving operations for you: 
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
 2. now the model is in Double Zero ('Quick' Mode); From here you can immediately play with the EG Envelope Generator and Shape LFO and three channels of Key Tracking - great for quick voicings - or with few positive or negative Mode clicks you can select Envelope or LFO mode and their modulation sub-types; AD/ASR/ADSR/Ramp/Vibrato/Tremolo, etc... Remember to use the Shift-Shortcut key to move leftward in the Params menus, much easier than going around and around.
-
+3. A large Shape pointer knob is recommended for PlaitsXplorer to aid in setting with Pitch. plus it's helps in performance situations.
+   
 Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
 
 --------------------
