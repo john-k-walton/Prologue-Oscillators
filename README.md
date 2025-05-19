@@ -4,15 +4,11 @@
 *"It's like a having a whole Modular inside your keyboard!"*
 
 
-**sorry RC2 is taking a while. it's tough to balance all these oscillators with the same schema and the memory constraints. it's coming along nicely for Prologue though. last thing is to finalize the Attack Timing for Built-ins and finish some documentation.**
-
-PlaitsXplorer turns your Prologue or (XD on hold for now) hybrid synthesizer into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniqs Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *eleven* oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus EG Envelope and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, Shape LFO, Key Tracking on all inputs, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this version provides terrific control of Plaits all from the confort of the front panel. the only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
+PlaitsXplorer turns your Prologue into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniqs Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *eleven* oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus EG Envelope and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, Shape LFO, Key Tracking on all inputs, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this version provides terrific control of Plaits all from the confort of the front panel. the only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
-the following PlaitsXplorer Oscillators are available today for Prologue, Minilogue XD
-
-**XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls. Prologue is pretty solid in both M5 and Xplorer releases, and brilliantly fun! just working on some documentation and programming tips**
+the following PlaitsXplorer Oscillators are available today for Prologue.
 
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
@@ -23,113 +19,22 @@ the following PlaitsXplorer Oscillators are available today for Prologue, Minilo
 - Zbraids; filter simulation with Peaking/LP/BP/HP response.
 - Additive; Additive mixture of harmonically related sine waves.
 - SWARM; Granular swarm of 8 enveloped SAW Waves.
-- Particle; Dust noise processed by networks of all-pass or band-pass filters.
+- Particle; Dust noise processed by networks of all-pass or band-pass filters. [on hold]
 - Noise; Variable-clock white noise processed by a resonant filter.
 - NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Harsh/Clean; simulation of hi hat.
 - Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
-- Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables (prologue only for now)
-- VCF 1.2 LP/HP - Prologue only.
+- Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables [on hold for now]
+- VCF 1.2 LP/HP
 
-use M5 String and Model models for now. PlaitsXplorer has bumped into memory limits on Pstrings and wavetables. wavetables do not use Mod Channel 3 on Shape/Shift-Shape. since there's no memory left... probably not going to do more than add the Lofi mix back into the wavetables. an interpolation mix might work as well... no promises.
-
------------------
-Plus M5 Multidimensional Modulation schema for Prologue, XD and NTS-1 mki. M5 is a curated set of modulation for Plaits on Prologue that do not use the VCO section. these are most useful for full 16 voice Plaits w/VCO's. PlaitsXplorer is more focused on Digital only. 
-
-M5 demos below are more extreme examples the show range of the implemented modulations. 
-
-** For both M5 and PlaitsXplorer: **
-
-**Logue Platform Modulations available *to* User Oscillator:**
-- Shape LFO, built in Logue hardware LFO.
-- Key Tracking.
-- EG note Velocity.
-- Filter EG Envelope. (Velocity and EG Env access generously provided by Tsonic Front Panel code - not available on NTS)
-
-**User Oscillator Built-in Modulations:**
-
-Envelopes:
-- AD, Attack, Decay envelope.
-- ASR, Attack, Sustain, Release type envelope.
-- ADSR 40%, an ADSR with 40% Sustain level. Release is a fixed multiple of Decay.
-- ADSR 70%, an ADSR with 70% Sustain level. Release is a fixed multiple of Decay.
-- Linear Ramp, linearly increasing or decreasing Ramp. (set Decay +100, Attack to taste).
-
-Envelope Mode features:
-- Logarithmic or Linear Envelope Attack is defined per model, Decay and Release slopes are linear.
-- Pitched Spectral models receive Log, others prefer Linear.
-- Log Attack features 'advance to Decay on Note Off' modeling analog synth envelopes for more dynamic behavior. 
-
-LFO Mode features:
-- LFO2 (Triangle wave). approx 0.5hz to 1.5hz.
-- LFO2 + Shape LFO; LFO's are summed linearly.
-- LFO2 * Shape LFO; Shape LFO envelopes LFO2 for 'breathing' LFO modulation.
-- Tremolo LFO2 + Shape LFO; LFO2 frequency is key tracked. LFO2 frequency increases with pitch. LFO2 summed with Shape LFO.
-- Tremolo LFO2 * Shape LFO; LFO2 frequency key tracked and enveloped by Shape LFO. using the Shape LFO you can make varying time dependant tremolo effects.
-
-Key Tracking Mode for Physical Models (single mode models):
-- EG Envelope and Shape LFO modulated Inharmonic inputs, with seperate Key Tracking and EG Velocity on Brightness and Decay inputs.
-
-Double Zero "Quick" Modes:
-- Spectral (Green) Models; two channels of EG Velocity modulated by EG Envelope and LFO, with Note Key Tracking on all three Channels. great starting modulations! see Pro Tip 1 & 2.
-- Unpitched (Red) Models; EG Velocity modulated Shape LFO on all three channels. 
-
-**Traditional Control Schema Description:**
-
-The same schema is used across all M5 user oscillators. Plaits provides three inputs that describe a cubic sonic space for each model. Modulations in multiple dimensions produce the most interesting sounds for subtractive sculpting. 
-- Shape - Bias 1; Initial input value for Modulation Channel One
-- (S)Shape - Bias 2; Initial input value for Modulation Channel Two
-- Param 1 - Bias 3; Iniitial input value for Modulation Channel Three
-- Param 2 - Modulation Channel One Intensity* 
-- Param 3 - Modulation Channel Two Intensity*
-- Param 4 - Modulation Channel Three Intensity*
-- Param 5 - Attack Mode*
-- Param 6 - Decay Mode*
-
-*- for all models except Wavetables refer to M5 General Modulation Control Mapping.PDF; Wavetables as described in M5 Wavetable Modulation and Control Mapping.PDF. Wavetable Schema provides two additional Modulation Channels per input use Key Tracking to skew table access proportional to pitch across wavecycles.
-
-Modulations listed above are accessed via Attack and Decay Mode combinations; select modulation types and Modulation Channel assignments with various bipolar and zero values of these two controls. Please see PDF for modulation and control mapping.
-
-**Pro Tip:**
+**Pro Tips:**
 
 When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn. this will do two labor saving operations for you: 
 1. prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (M5's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
-2. now the model is in Double Zero ('Quick' Mode); From here you can immediately play with the EG Envelope Generator and Shape LFO and three channels of Key Tracking - great for quick voicings - or with few positive or negative Mode clicks you can select Envelope or LFO mode and their modulation sub-types; AD/ASR/ADSR/Ramp/Vibrato/Tremolo, etc... Remember to use the Shift-Shortcut key to move leftward in the Params menus, much easier than going around and around.
-3. A large Shape pointer knob is recommended for PlaitsXplorer to aid in setting with Pitch. plus it's helps in performance situations.
-   
-Best model to start with is the Additive Model w/EG Velocity, or VAsync. don't forget to adjust EG Velocity Modulation Param in the menu's, or EG INT in DoubleZero Mode.
+2. A large Shape pointer knob is recommended for PlaitsXplorer to aid in setting with Pitch. plus it's helps in performance situations.
 
---------------------
-Thirty demos for your enjoyment: https://soundcloud.com/john-walton-732877645/sets/model-demonstrations
 
---------------------
-License and credit files included for the very generous open source developers of Plaits and Logue-Panel-Demo Code (EG Velocity, EG Envelope and EG_INT) in distribution. Thank you Emilie, Mark, and Peter for your open source contributions; Plaits, Front Panel Code/Logue Internals, and the original Plaits Port respectively! you folks rock!
+**XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls.**
 
--------------------
-**RELEASE HISTORY:**
-
-**[NEW][03/15/25]** PlaitsXplorer Draft DOCS posted
-
-PlaitsXplorer turns your Prologue or XD hybrid synthesizer into a full digital knobby modular modulation monster! PlaitsXplorer heavily utilizes Tsonics Logue Front Panel code (Thanks Mark!!!) to wrestle away the controls from the VCO's, and then instance *nine* additional modulation controls, for a total of *seventeen* digital engine controls! Wield combinations of two Envelopes, Two LFO's, Key Tracking, and Note Velocity with wild abandon, all concurrently in a modulation matrix of madness! seriously, this is wack stuff expressed fairly well on the Prologue. there's only menu diving for the LFO2 rate, three KT settings and the Env2 timing controls.
-
-hrere are some PlaitsXplorer demos that focus on detailed voicing. so, no wide sweeping. just the Prologue 16 and a click track.
-https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
-
-[02/01/25] WT_Braids.zip
-
-took a while to remember what i had done before. today, five Braids wavetables originated for the M4 project are included in WT_Braids with the M5 Wavetable schema; Voices, Jazz, Clank, Strings, and India.
-
-[01/27/25] VAupdate.zip
-
-VA and VAsync: removed Note Velocity from Quick mode Mod Channel 2 so pitch effects in Quick Mode can be tuned to repeatable pitches with LFO modulations. 
-
-[01/07/25] RC5 optional
-
-release includes changes only to Spectral Models; an additional EG Filter Envelope in LFO Mode on MOD Channel 3, which otherwise has no envelope. 
-both RC4 and RC5 are fun for the whole family and provides hours of entertainment! 
-
-[01/03/25] RC4/Final Release
-
-finalized features added from Logue Front Panel; EG Velocity, EG Envelope, and EG INT control. finished EG Velocity and Key Tracked Schema's for Physical Models. reminder, you must be running firmware 2.10 for these added features to work. VCF only provided for Prologue ATM.  
