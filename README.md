@@ -40,6 +40,8 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 **XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls.**
 
 ---------------
-**[NEW][6/8/25]** RC3 release published. click on Releases to the right to download binaries and manual or follow this link https://github.com/john-k-walton/Prologue-Oscillators/releases/tag/plaits
+**[8/7/25]** RC4 release soon. takes a while to play through all these models while testing. found Additive had a hard crash on one Prologue but only intermittant crash on the other. Additive and Particle are the most CPU intensive. removed some function call thrashing and coverted calls to global variables. now Additive works fine, and Particle is back in play. also more manual updates.
+
+**[6/8/25]** RC3 release published. click on Releases to the right to download binaries and manual or follow this link https://github.com/john-k-walton/Prologue-Oscillators/releases/tag/plaits
 
 **[6/7/25]** RC3 binaries and manual uploaded. WT[a-f] do not have Interpolation or 5-bit implemented atm. not enough memory with the newest LFO3 modulation. need to shake some more bytes out of the source to fit it all in RC4.
