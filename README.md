@@ -21,7 +21,7 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 - Zbraids; filter simulation with Peaking/LP/BP/HP response.
 - Additive; Additive mixture of harmonically related sine waves.
 - SWARM; Granular swarm of 8 enveloped SAW Waves.
-- Particle; Dust noise processed by networks of all-pass or band-pass filters. [on hold]
+- Particle; Dust noise processed by networks of all-pass or band-pass filters.
 - Noise; Variable-clock white noise processed by a resonant filter.
 - NoiseDBP; Variable-clock white noise processed by a resonant filter with dual bandpass filters.
 - Bassdrum Analog/Synth; simulation of bass drum.
