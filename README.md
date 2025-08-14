@@ -39,6 +39,11 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 
 **XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls.**
 
+ToDo:
+1. Fix MultiMod Vibrato LFO3 mode or replace with a 3 phase Logue LFO delay; one phase per input.
+2. convert Envelope timing to full log range from 2-piece linear approx.
+3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2)
+
 ---------------
 **[NEW][8/7/25]** RC4 release binaries and manual are UP! so, takes a while to play through all these models while testing and isolating issues without a debugger. in RC3 I found Additive had a hard crash on one Prologue but only intermittant crash on the other. i might have a dodgy voice in one Prologue. fwiw Additive and Particle are the most CPU intensive, and String the most memory intensive. I removed some function call thrashing and coverted those calls to global variables to reduce CPU to fix both models. also added aunipolar version of LFO for Matrix Modulation (1) for cleaner modulation enveloping without inverting the multiplicand. now Additive works fine, and Particle is back in play and modulation (1) is more defined. also more manual updates woo!
 
