@@ -40,9 +40,9 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 **XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls.**
 
 Up Coming Changes ToDo List:
-1. Fix MultiMod Vibrato LFO3 mode or replace with a 3 phase Logue LFO delay; one phase per input.
-2. convert Envelope timing to full log range from 2-piece linear approx.
-3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2)
+1. Fix MultiMod Vibrato LFO3 mode, i broke it when i put the LFO FM option, or replace with a 4 phase Logue LFO delay; one phase per input plus Cutoff.
+2. convert Envelope timing to full log range from 2-piece linear approx. median range at the knee is coming into play lately. nice to have.
+3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
 
 ---------------
 **[NEW][8/15/25]**
