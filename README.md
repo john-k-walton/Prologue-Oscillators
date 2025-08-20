@@ -33,7 +33,7 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 
 **Pro Tips:**
 
-1. When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn to prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (PX's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue.
+1. When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn to prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (PX's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue. this is especially evident with VA's detune, which has confused even me once in a while sometimes Prologue forgets the params on layers. weird korg bug there.
 2. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
 
 
@@ -45,7 +45,10 @@ Up Coming Changes ToDo List:
 3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
 
 ---------------
-**[NEW][8/15/25]**
+**[NEW][8/20/25]**
+4th draft detailing Key Tracking with Bias and Modulations. this will probably be the last draft before todo list features are finished. enjoy!
+
+**[8/15/25]**
 3rd Draft Manual with Expression Controller section changes and additions, a Voicing and Modulation section, and VA oscillator programming example.
 
 **[8/7/25]** RC4 release binaries and manual are UP! so, takes a while to play through all these models while testing and isolating issues without a debugger. in RC3 I found Additive had a hard crash on one Prologue but only intermittant crash on the other. i might have a dodgy voice in one Prologue. fwiw Additive and Particle are the most CPU intensive, and String the most memory intensive. I removed some function call thrashing and coverted those calls to global variables to reduce CPU to fix both models. also added aunipolar version of LFO for Matrix Modulation (1) for cleaner modulation enveloping without inverting the multiplicand. now Additive works fine, and Particle is back in play and modulation (1) is more defined. also more manual updates woo!
