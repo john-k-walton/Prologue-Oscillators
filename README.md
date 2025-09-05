@@ -45,6 +45,9 @@ Up Coming Changes ToDo List:
 3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
 
 ---------------
+**[NEW][9/4/25]**
+ElementXplorer is in the works now - a Front Panel controlled version of the Elements port to Korg prologue. will include support for Logue modulations, and key tracking each control. 
+
 **[NEW][8/20/25]**
 4th draft detailing Key Tracking with Bias and Modulations. this will probably be the last draft before todo list features are finished. enjoy!
 
