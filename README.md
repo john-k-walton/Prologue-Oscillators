@@ -1,16 +1,16 @@
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
-**PlaitXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
+**PlaitsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
 
-**Introducing ElementXplorer - Peter's Modal Strike model based on Elements with front panel control and full key tracking!**
+**Introducing ElementsXplorer - Peter's Modal Strike model based on Elements with front panel control and full key tracking!**
 
 *"It's like a having the whole Modular inside your keyboard!"*
 
 
-PlaitXplorer turns your Prologue into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniq's Logue Front Panel code (Thanks Mark!!!) to map User Oscillator modulation controls onto front panel VCO control instancing *eleven* user oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus User Oscillator access to EG Envelope, independent LFO and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, use LFO independently of Target and Intensity, Key Tracking on all inputs, and Velocity Sensitivity with wild abandon, all concurrently in a selectable modulation matrix of madness! 
+PlaitsXplorer turns your Prologue into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniq's Logue Front Panel code (Thanks Mark!!!) to map User Oscillator modulation controls onto front panel VCO control instancing *eleven* user oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus User Oscillator access to EG Envelope, independent LFO and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, use LFO independently of Target and Intensity, Key Tracking on all inputs, and Velocity Sensitivity with wild abandon, all concurrently in a selectable modulation matrix of madness! 
 
-PlaitXplorer provides exceptional control of complex modulations for Plaits DSP models, all from the comfort of the front panel. The only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. PlaitsXplorer's reuse of front panel controls also supports Expression Pedal, Mod Wheel, After Touch and MIDI CC control access to digital engine programming, plus full preset save and restore of all configuration and modulation controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
+PlaitsXplorer provides exceptional control of complex modulations for Plaits DSP models, all from the comfort of the front panel. The only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. PlaitsXplorer's reuse of front panel controls also supports Expression Pedal, Mod Wheel, After Touch and MIDI CC control access to digital engine programming, plus full preset save and restore of all configuration and modulation controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
 
-PlaitXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
+PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
 the following PlaitXplorer Oscillators are available today for Prologue.
 
@@ -48,10 +48,10 @@ Up Coming Changes ToDo List:
 
 ---------------
 **[NEW][9/6/25]**
-ElementXplorer RC1 is up with front panel control and draft modulation assignment docs.
+ElementsXplorer RC1 is up with front panel control and draft modulation assignment docs.
 
 **[9/4/25]**
-ElementXplorer is in the works now - a Front Panel controlled version of the Elements port to Korg prologue. will include support for Logue modulations, and key tracking each control. 
+ElementsXplorer is in the works now - a Front Panel controlled version of the Elements port to Korg prologue. will include support for Logue modulations, and key tracking each control. 
 
 **[NEW][8/20/25]**
 4th draft detailing Key Tracking with Bias and Modulations. this will probably be the last draft before todo list features are finished. enjoy!
