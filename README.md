@@ -48,7 +48,7 @@ Up Coming Changes ToDo List:
 
 ---------------
 **[NEW][9/7/25]**
-ElementsXplorer RC2 is up. changes includes Position as a new Envelope target (fun!) and a minor internal trigger delay that eliminate all or most fo the minor pitch 'schwing' the original model port had. yay!
+ElementsXplorer RC2 is up. changes include Position as a new Envelope target (fun!) and a minor internal trigger delay that eliminates all or most fo the minor pitch 'schwing' the original model port had. yay!
 
 **[9/6/25]**
 ElementsXplorer RC1 is up with front panel control and draft modulation assignment docs.
