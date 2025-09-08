@@ -1,7 +1,7 @@
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
 **PlaitsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
 
-**Introducing ElementsXplorer - Peter's Modal Strike model based on Elements with front panel control and full key tracking!**
+**[NEW!} Introducing ElementsXplorer - Peter's Modal Strike model based on Elements with front panel control and full key tracking!**
 
 *"It's like a having the whole Modular inside your keyboard!"*
 
