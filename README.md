@@ -53,7 +53,7 @@ Up Coming Changes ToDo List:
 3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
 
 ---------------
-**[NEW][17/9/25]**
+**[NEW][9/17/25]**
 ElementsXplorer RC3 with manual is up!
 
 **[9/16/25]**
