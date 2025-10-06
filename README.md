@@ -12,7 +12,7 @@ PlaitsXplorer provides exceptional control of complex modulations for Plaits DSP
 
 PlaitsXplorer demos https://soundcloud.com/john-walton-732877645/sets/plaitsxplorer-for-prologue
 
-the following PlaitXplorer Oscillators are available today for Prologue.
+the following PlaitsXplorer Oscillators are available today for Prologue.
 
 - VA; Virtual Analog with classic waveforms.
 - VAsync; Hard Sync Virtual Analog, lots of squelch on this one.
