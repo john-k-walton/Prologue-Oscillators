@@ -51,7 +51,8 @@ Up Coming Changes ToDo List:
 1. Fix MultiMod Vibrato LFO3 mode, i broke it when i put the LFO FM option, or replace with a 4 phase Logue LFO delay; one phase per input plus Cutoff.
 2. convert Envelope timing to full log range from 2-piece linear approx. median range at the knee is coming into play lately. nice to have.
 3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
-
+4. stick that Quadrature LFO in there somewhere by hook or by crook!
+   
 ---------------
 **[NEW][9/21/25]** 
 ElementsXplorer RC4 with manual updates is up. i moved LFO to Timbre, and reapplied LFO to Brightness - it had got lost in the edits of RC3. this should finish the model work for FINAL release. enjoy!
