@@ -37,7 +37,9 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 
 "Elements is a full-blown synthesis voice based on modal synthesis - an under-appreciated flavour of physical modelling synthesis. With Elements, a sound is designed by specifying a resonant structure (plate, string, tube...), the properties of the material it is made of (stiffness, absorption...), and how the structure is excited to produce sound - struck, plucked, blown, bowed..."
 
-https://pichenettes.github.io/mutable-instruments-documentation/modules/elements/manual/
+ElementsXplorer Demos https://soundcloud.com/john-walton-732877645/sets/elementsxplorer-for-prologue
+
+Original Elements Manual https://pichenettes.github.io/mutable-instruments-documentation/modules/elements/manual/
 
 **Pro Tips:**
 
