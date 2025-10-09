@@ -57,7 +57,7 @@ Up Coming Changes ToDo List:
    
 ---------------
 **[NEW][10/8/25]**
-ElementsXplorer RC5 with manual update is up. RC5 includes exciter control changes for better Mallet selection performance and EG Velocity on Strnegth. This is about where i want it. enjoy! 
+ElementsXplorer RC5 with manual update is up. RC5 includes exciter control changes for better Mallet selection performance on Shape control where you can 'play' the selector, or use an Expression device. Then Strength on Shift-Shape to set upper limit strike strength, but with EG Velocity to provde a range of hits. Finally, Timbre take the Crossmod control for handy tweaking and LFO modulation. This is about where i want it. enjoy! 
 
 [9/21/25] 
 ElementsXplorer RC4 with manual updates is up. i moved LFO to Timbre, and reapplied LFO to Brightness - it had got lost in the edits of RC3. this should finish the model work for FINAL release. enjoy!
