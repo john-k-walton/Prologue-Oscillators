@@ -56,31 +56,34 @@ Up Coming Changes ToDo List:
 4. stick that Quadrature LFO in there somewhere by hook or by crook!
    
 ---------------
-**[NEW][9/21/25]** 
+**[NEW][10/8/25]**
+ElementsXplorer RC5 with manual update is up. RC5 includes exciter control changes for better Mallet selection performance and EG Velocity on Strnegth. This is about where i want it. enjoy! 
+
+[9/21/25] 
 ElementsXplorer RC4 with manual updates is up. i moved LFO to Timbre, and reapplied LFO to Brightness - it had got lost in the edits of RC3. this should finish the model work for FINAL release. enjoy!
 
-**[9/17/25]**
+[9/17/25]
 ElementsXplorer RC3 with manual is up!
 
-**[9/16/25]**
+[9/16/25]
 ElementsXplorer RC3 is up. includes doubling the trigger delay to approx 6ms to remove the rest of the initial pitch schwing. added modulation options for LFO to Resonator Brightness and Strike Strength. this pretty much wraps it up for now. enjoy! 
 
-**[9/7/25]**
+[9/7/25]
 ElementsXplorer RC2 is up. changes include Position as a new Envelope target (fun!) and a minor internal trigger delay that eliminates all or most fo the minor pitch 'schwing' the original model port had. yay!
 
-**[9/6/25]**
+[9/6/25]
 ElementsXplorer RC1 is up with front panel control and draft modulation assignment docs.
 
-**[9/4/25]**
+[9/4/25]
 ElementsXplorer is in the works now - a Front Panel controlled version of the Elements port to Korg prologue. will include support for Logue modulations, and key tracking each control. 
 
-**[8/20/25]**
+[8/20/25]
 4th draft detailing Key Tracking with Bias and Modulations. this will probably be the last draft before todo list features are finished. enjoy!
 
-**[8/15/25]**
+[8/15/25]
 3rd Draft Manual with Expression Controller section changes and additions, a Voicing and Modulation section, and VA oscillator programming example.
 
-**[8/7/25]** RC4 release binaries and manual are UP! so, takes a while to play through all these models while testing and isolating issues without a debugger. in RC3 I found Additive had a hard crash on one Prologue but only intermittant crash on the other. i might have a dodgy voice in one Prologue. fwiw Additive and Particle are the most CPU intensive, and String the most memory intensive. I removed some function call thrashing and coverted those calls to global variables to reduce CPU to fix both models. also added aunipolar version of LFO for Matrix Modulation (1) for cleaner modulation enveloping without inverting the multiplicand. now Additive works fine, and Particle is back in play and modulation (1) is more defined. also more manual updates woo!
+[8/7/25] RC4 release binaries and manual are UP! so, takes a while to play through all these models while testing and isolating issues without a debugger. in RC3 I found Additive had a hard crash on one Prologue but only intermittant crash on the other. i might have a dodgy voice in one Prologue. fwiw Additive and Particle are the most CPU intensive, and String the most memory intensive. I removed some function call thrashing and coverted those calls to global variables to reduce CPU to fix both models. also added aunipolar version of LFO for Matrix Modulation (1) for cleaner modulation enveloping without inverting the multiplicand. now Additive works fine, and Particle is back in play and modulation (1) is more defined. also more manual updates woo!
 
 **[6/8/25]** RC3 release published. click on Releases to the right to download binaries and manual or follow this link https://github.com/john-k-walton/Prologue-Oscillators/releases/tag/plaits
 
