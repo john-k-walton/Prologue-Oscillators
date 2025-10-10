@@ -1,12 +1,9 @@
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
-**PlaitsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
+**PlaitsXplorer and ElementsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
 
-**[NEW!] Introducing ElementsXplorer - Peter's Modal Strike model based on Elements with front panel control and full key tracking!**
+*"It's like a having a whole Modular synthesizer inside your Prologue!"*
 
-*"It's like a having the whole Modular inside your Prologue!"*
-
-
-PlaitsXplorer turns your Prologue into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniq's Logue Front Panel code (Thanks Mark!!!) to map User Oscillator modulation controls onto front panel VCO control instancing *eleven* user oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus User Oscillator access to EG Envelope, independent LFO and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, use LFO independently of Target and Intensity, Key Tracking on all inputs, and Velocity Sensitivity with wild abandon, all concurrently in a selectable modulation matrix of madness! 
+**PlaitsXplorer** turns your Prologue into a 'PlaitStation'; a fully digital, polyphonic, knobbilicious, modular modulation monster! PlaitsXplorer heavily utilizes Tsoniq's Logue Front Panel code (Thanks Mark!!!) to map User Oscillator modulation controls onto front panel VCO control instancing *eleven* user oscillator controls on the front panel, for a total of *seventeen* digital engine controls, plus User Oscillator access to EG Envelope, independent LFO and Note Velocity! Brandish Front Panel controls to sculpt modulations containing combinations of EG Envelope, built in Envelope, Two builtin Tri LFO's with Saw; tremolo and vibrato options, use LFO independently of Target and Intensity, Key Tracking on all inputs, and Velocity Sensitivity with wild abandon, all concurrently in a selectable modulation matrix of madness! 
 
 PlaitsXplorer provides exceptional control of complex modulations for Plaits DSP models, all from the comfort of the front panel. The only menu diving is for modulation programming: the LFO2 rate, three KT settings, and the two MultiMod timing and configuration controls. PlaitsXplorer's reuse of front panel controls also supports Expression Pedal, Mod Wheel, After Touch and MIDI CC control access to digital engine programming, plus full preset save and restore of all configuration and modulation controls. See PlaitsXplorer DOC's for details! Release Candidate binaries are available NOW!
 
@@ -33,9 +30,9 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 - Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables [on hold for now]
 - VCF 1.2 LP/HP
 
-**What is Elements?**
+**ElementsXplorer**
 
-"Elements is a full-blown synthesis voice based on modal synthesis - an under-appreciated flavour of physical modelling synthesis. With Elements, a sound is designed by specifying a resonant structure (plate, string, tube...), the properties of the material it is made of (stiffness, absorption...), and how the structure is excited to produce sound - struck, plucked, blown, bowed..."
+What is Elements? "Elements is a full-blown synthesis voice based on modal synthesis - an under-appreciated flavour of physical modelling synthesis. With Elements, a sound is designed by specifying a resonant structure (plate, string, tube...), the properties of the material it is made of (stiffness, absorption...), and how the structure is excited to produce sound - struck, plucked, blown, bowed..."
 
 ElementsXplorer Demos https://soundcloud.com/john-walton-732877645/sets/elementsxplorer-for-prologue
 
