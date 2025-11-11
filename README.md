@@ -53,7 +53,10 @@ Up Coming Changes ToDo List:
 4. stick that Quadrature LFO in there somewhere by hook or by crook!
    
 ---------------
-**[NEW][10/8/25]**
+**[NEW][11/11/25]**
+ElementsXplorer Final now up! this very last version maps AMP Velocity to the Exciter stage controls, and EG Velocity to Resonator controls for coloration. you can adjust them independently, because now the Mallet controls responds to AMP Velocity! you can play plectrum delays, dribbles, and bounces with Velocity adding another dimension to playability for this physical modeling synthesizer. Exciter Strike Strength and Timbre also have AMP Velocity modulation. and now, it really is finished. back to PlaitsXplorer and more playing! enjoy!
+
+[10/8/25]
 ElementsXplorer RC5 with manual update is up. RC5 includes exciter control changes for better Mallet selection performance on Shape control where you can 'play' the selector, or use an Expression device. Then Strength on Shift-Shape to set upper limit strike strength, but with EG Velocity to provde a range of hits. Finally, Timbre take the Crossmod control for handy tweaking and LFO modulation. This is about where i want it. enjoy! 
 
 [9/21/25] 
