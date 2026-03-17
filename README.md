@@ -54,10 +54,10 @@ Up Coming Changes ToDo List:
    
 ---------------
 **[UPDATE][3/17/26]** more update details on Mod Matrix expansions. there are four modulation matrix modes, each mode is tailored to a class of modulations, and features a special function assigned to the LFO Int knob when LFO Target is set to SHAPE. each mode has a default Int knob setting for when Filter or Pitch is selected instead. each mode has three matricies to choose from for Timbre, and Morph. Harmonics remains at two choices. the matrix modes are selected with the Menu Modulation LFO Target OSC setting:
-1. [All] Key Tracking - in this mode, simple modulations are applied with various key tracking settings. LFO Int controls the shape of the tracking curves.
-2. [VCO1+2] Modulation Balance - this mode features single and repeating modulations arranged for pads or lead/bass modulations, plus an LFOsample mode that samples the current LFO value. LFO Int controls a crossover function between two types of modulations.
-3. [VCO2] MultiLFO - this mode elaborates frequency multiples of the LFo; 2x, 3x, and 4x. LFO Int prescales the multiples relative to the hardware LFO for a wide range of LFO frequencies sync or not to key pressed.
-4. [Multi] QuadLFO - finally, three additional phases are created, with LFO Int controlling the offset phase from the LFO. matrix switches allow different phases to be applied to each Plaits input.
+1. [All] Key Tracking - in this mode, simple modulations are applied with various key tracking settings with matrix switches. LFO Int controls the shape of the tracking curves, from convex to concave. menu KT params implement a bimodal sliding split point between upper and lower modulations or adjusts the number of keys covered by a modulation, when using wedges.
+2. [VCO1+2] Modulation Balance - this mode features single and repeating waveform modulations arranged for pads or lead/bass modulations, plus an LFOsample mode that samples the current LFO value. LFO Int controls a crossover function between two types of modulations.
+3. [VCO2] MultiLFO - this mode elaborates frequency multiples of the hardware LFO; 2x, 3x, and 4x LFO frequency. LFO Int prescales the multiples relative to the hardware LFO for a wide range of LFO frequencies; synced or not to key pressed. great for rhythmic BPM modulations. matrix switch control which multiple is assigned to Timbe and Morph. 
+4. [Multi] QuadLFO - finally, three additional phases are created for DSP inputs, while the original phase is used for Filter, or Pitch. with LFO Int controlling the phase ensemble offset from the LFO. matrix switches allow different phases to be applied to each Plaits input.
 
 when LFO Target is set to Pitch, [VCO1+2], and [VCO2] feature an alternate pitch modulation for damped, and pitch tracked vibrato modes.
 
