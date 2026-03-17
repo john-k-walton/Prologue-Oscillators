@@ -61,7 +61,7 @@ Up Coming Changes ToDo List:
 
 when LFO Target is set to Pitch, [VCO1+2], and [VCO2] feature an alternate pitch modulation for damped, and pitch tracked vibrato modes.
 
-this is the current 'working' mod matrices, and their modes: 
+this is the current 'working' mod matrices, and their modes (Triphase is deprecated, QuadLFO will look similar though): 
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
 [1/17/26] update: sorry for the delay; with the new features, i've been playing a lot. now mod matrix alternates is up to four instead of two. each alternate is focused on one aspect of modulation, while coopting the LFO Int. knob for a new feature for each matrix: Key Tracking curves, LFO4 freq pre-scaler, Modulation Balance, Quadrature Phase/Freq LFO. LFO4 and Quadrature, use the hardware LFO for phase/data instead of a builtin, so you have more non-sync LFO options. Also, instancing AEG in a few places to reduce some redundancy. plus, LFOsample on Timbe for beepboopbeep effects! neat!
