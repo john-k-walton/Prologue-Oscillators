@@ -31,8 +31,6 @@ the following PlaitsXplorer Oscillators are available today for Prologue.
 - Bassdrum Analog/Synth; simulation of bass drum.
 - Snare Analog/Synth; simulation of snare drum.
 - Hi Hat Harsh/Clean; simulation of hi hat.
-- Wta-Wtf; Plaits 2D Wavetables. 32 Spectrally related Wavecycles arranged in a 2D table for modulating in two directions.
-- Braids Wavetables; Jazz, Clank, India, Voices, Strings 2D Braids wavetables [on hold for now]
 - VCF 1.2 LP/HP
 
 **ElementsXplorer**
