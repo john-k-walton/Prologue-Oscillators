@@ -48,6 +48,20 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 
 ----------
 **[10/11/26]**
-RC5 coming soon....
+RC5 coming soon to a Prologue near you....
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
+
+RC5 supplants LFO targets Selector, LFO generation, and LFO Int control. providing these additional features:
+
+[All] Crossfade: In this mode two modulators are summed in Main Modulation channel. LFO Int crossfades between the two modulators allowing both an additional modulator per input as well as a method to manually crossfade between them. Also, here, MultiMod samples the LFO at the beginning of the note (should be in non-sync mode), for a Sample and Hold effect.
+
+[VCO1+2] MultiRateLFO: This mode produces three multiples of the Main LFO selected by LFO Int control. Each of ten selections presents three preset rate multiples routed to ModMatrix selector for each input. Additionally, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the MultiRateLFO's.
+
+[VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO. LFO Int control adjusts the Phase interval between phases from 0-90 degrees. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
+
+[Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (inputs are proportional to the current pitch) modulators are allplied to each input. KeyTracking menu control is partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a resolution of one and a half keys. the Wedges vary from no keys, to full overlap of regions as provided in RC4. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
+
+
+
+
