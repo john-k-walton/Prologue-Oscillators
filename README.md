@@ -52,7 +52,7 @@ RC5 coming soon to a Prologue near you....
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
 
-RC5 completely supplants LFO targets Selector, LFO generation for digital Oscillator, and LFO Int control. providing these additional features:
+RC5 completely supplants LFO targets Selector, LFO generation for digital Oscillator, and LFO Int control. Providing four new Matrix Modulation modes with these additional features:
 
 [All] Crossfade: In this mode two modulators are summed in Main Modulation channel. LFO Int crossfades between the two modulators allowing both an additional modulator per input as well as a method to manually crossfade between them. Also, here, MultiMod samples the LFO at the beginning of the note (should be in non-sync mode), for a Sample and Hold effect.
 
