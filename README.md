@@ -72,12 +72,12 @@ Multimod now produces nine types of modulators when selected:
 - Linear Ramp 
 - Triangle LFO
 - Triangle LFO with Rate increasing with Pitch
-- Triangle LFO Rate modulated by Main LFO's Triangle
-- Triangle LFO with Duty Cycle Modulated by Main LFO Triangle wave
-- Sample + Hold of the Main LFO
+- Triangle LFO Rate modulated by LFO Phase A Triangle
+- Triangle LFO with Duty Cycle Modulated by LFO Phase A Triangle wave
+- Sample + Hold of the LFO Phase A (use in non-keysync)
 - EG Velocity for current note
 
-Additionally, now both hardware Envelopes are available as well as both Velocity settings applied to each envelope respectively. EG envelope is assigned to Timbre, AMP Envelope is assigned to Morph input. Harmonics may use MultiMod for Envelope Modulations.
+Additionally, now both hardware Envelopes are available as well as both Velocity settings applied to each envelope respectively. EG envelope is assigned to Timbre Velocity channel, AMP Envelope is assigned to Morph Velocity channel. 
 
 so... yeah, that's a lot of modulation.
 
