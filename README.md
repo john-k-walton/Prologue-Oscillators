@@ -1,4 +1,4 @@
-PlaitsXplorer IS NOT a firmware hack, it does not modify your machine in anyway. it doesn't use AI, and it doesn't violate any copy protection. it merely runs as any user oscillator does, while making READ references ONLY to new memory locations containing control values, envelope and LFO states. when not selected, your synth operates as it always does. 
+PlaitsXplorer IS NOT a firmware hack, it does not modify your machine in anyway. it doesn't use AI, and it doesn't violate any copy protection. it merely runs as any user oscillator does, while making READ references ONLY to new memory locations containing control values, envelope and LFO states. when not selected, your synth operates as it always does. Each line of code has been lovingly hand written by Émilie, Peter, and Mark, and myself for the enjoyment of others, love of music, and just being a good old fashion human. Please enjoy!
 
 See End of File for Current Project Status.
 
