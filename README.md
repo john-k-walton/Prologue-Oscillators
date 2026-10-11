@@ -52,16 +52,32 @@ RC5 coming soon to a Prologue near you....
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
 
-RC5 supplants LFO targets Selector, LFO generation, and LFO Int control. providing these additional features:
+RC5 completely supplants LFO targets Selector, LFO generation for digital Oscillator, and LFO Int control. providing these additional features:
 
 [All] Crossfade: In this mode two modulators are summed in Main Modulation channel. LFO Int crossfades between the two modulators allowing both an additional modulator per input as well as a method to manually crossfade between them. Also, here, MultiMod samples the LFO at the beginning of the note (should be in non-sync mode), for a Sample and Hold effect.
 
 [VCO1+2] MultiRateLFO: This mode produces three multiples of the Main LFO selected by LFO Int control. Each of ten selections presents three preset rate multiples routed to ModMatrix selector for each input. Additionally, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the MultiRateLFO's.
 
-[VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO. LFO Int control adjusts the Phase interval between phases from 0-90 degrees. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
+[VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO; B, C, D Phases, while A remains with the Filter and Pitch modulation. LFO Int control adjusts the Phase interval between phases from 0-90 degrees. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
 
-[Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (inputs are proportional to the current pitch) modulators are allplied to each input. KeyTracking menu control is partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a resolution of one and a half keys. the Wedges vary from no keys, to full overlap of regions as provided in RC4. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
+[Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (inputs are proportional to the current pitch) modulators are allplied to each input. KeyTracking menu control is partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a resolution of one and a half keys. the Wedges vary from no keys, to full overlap of regions as provided in RC4. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's. LFO Int is reserved for Key Tracking Curves in a future release.
 
+Multimod now produces nine types of modulators when selected:
+- AR Linear Envelope
+- AD Linear Envelope
+- ADSR (30% Sustain) Linear Envelope
+- ADSR (70% Sustain) Linear Envelope
+- Linear Ramp 
+- Triangle LFO
+- Triangle LFO with Rate increasing with Pitch
+- Triangle LFO Rate modulated by Main LFO's Triangle
+- Triangle LFO with Duty Cycle Modulated by Main LFO Triangle wave
+- Sample + Hold of the Main LFO
+- EG Velocity for current note
+
+Additionally, now both hardware Envelopes are available as well as both Velocity settings applied to each envelope respectively. EG envelope is assigned to Timbre, AMP Envelope is assigned to Morph input. Harmonics may use MultiMod for Envelope Modulations.
+
+so... yeah, that's a lot of modulation.
 
 
 
