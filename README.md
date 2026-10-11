@@ -1,6 +1,7 @@
 PlaitsXplorer IS NOT a firmware hack, it does not modify your machine in anyway. it doesn't use AI, and it doesn't violate any copy protection. it merely runs as any user oscillator does, while making READ references ONLY to new memory locations containing control values, envelope and LFO states. when not selected, your synth operates as it always does. 
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
+
 **PlaitsXplorer and ElementsXplorer for Prologue (Only) - Full Front Panel MultiEngine Modulation Control**
 
 *"It's like a having a whole Modular synthesizer inside your Prologue!"*
@@ -48,3 +49,5 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 ----------
 **[10/11/26]**
 RC5 coming soon....
+
+![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
