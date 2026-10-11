@@ -1,7 +1,7 @@
 PlaitsXplorer IS NOT a firmware hack, it does not modify your machine in anyway. it doesn't use AI, and it doesn't violate any copy protection. it merely runs as any user oscillator does, while making READ references ONLY to new memory locations containing control values, envelope and LFO states. when not selected, your synth operates as it always does. 
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/IMG_0974.png)
-**PlaitsXplorer and ElementsXplorer for Prologue - Full Front Panel MultiEngine Modulation Control**
+**PlaitsXplorer and ElementsXplorer for Prologue (Only) - Full Front Panel MultiEngine Modulation Control**
 
 *"It's like a having a whole Modular synthesizer inside your Prologue!"*
 
@@ -42,69 +42,9 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 
 **Pro Tips:**
 
-1. When initializing a new model, proceed to MultiEngine Param Menu and *immediately* increment and decrement each Param 1-6 in turn to prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (PX's Params are all BiPolar), and save you and your encoder a lot of cranking. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue. this is especially evident with VA's detune, which has confused even me once in a while sometimes Prologue forgets the params on layers. weird korg bug there.
-2. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
+1. When initializing a new PX or EX model, proceed to MultiEngine Param Menu and *immediately* increment and decrement (by 1) each Param 1-6 in turn to prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (PX's Params are all BiPolar), and save you and your encoder a lot of cranking. Once you do this new oscillator initialization it is not needed for this preset slot again - unles you change oscillators. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue. this is especially evident with VA's detune, which has confused even me once in a while sometimes Prologue forgets the params on layers. weird korg bug there.
+3. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
 
-
-**XD and NTS are on hold for now, I hadn't had enough testing on either to determine what the problems are. now that's I've spent some time, and found discrepancies, i'm going to have to go back and recalibrate controls.**
-
-Up Coming Changes ToDo List:
-1. Fix MultiMod Vibrato LFO3 mode, i broke it when i put the LFO FM option, or replace with a 4 phase Logue LFO delay; one phase per input plus Cutoff.
-2. convert Envelope timing to full log range from 2-piece linear approx. median range at the knee is coming into play lately. nice to have.
-3. elaborate Wedge & Window Key Tracking Modulation curves for Matrix Modulation (2). linear ramps don't provide enough seperation in modulations across even five octaves. Wedge will seperate linear ramps somewhat, and Window will introduce a sliding window for hard spliting modulations. linear ramp is still available.
-4. stick that Quadrature LFO in there somewhere by hook or by crook!
-   
----------------
-**[UPDATE][4/3/26]** mostly done with modmatrix, working on KT curves and a pitch mod hook for unused Pitch settings with LFO target switch in VCO2/VCO1+2 modes. this will add Pitch Mod back with LFO3 as a modulator in modes where LFO target isn't the Multiengine. plus you can use the mod wheel with it!
-
-[3/17/26] more update details on Mod Matrix expansions. there are four modulation matrix modes, each mode is tailored to a class of modulations, and features a special function assigned to the LFO Int knob when LFO Target is set to SHAPE. each mode has a default Int knob setting for when Filter or Pitch is selected instead. each mode has three matricies to choose from for Timbre, and Morph. Harmonics remains at two choices. the matrix modes are selected with the Menu Modulation LFO Target OSC setting:
-1. [All] Key Tracking - in this mode, simple modulations are applied with various key tracking settings with matrix switches. LFO Int controls the shape of the tracking curves, from convex to concave. menu KT params implement a bimodal sliding split point between upper and lower modulations or adjusts the number of keys covered by a modulation, when using wedges.
-2. [VCO1+2] Modulation Balance - this mode features single and repeating waveform modulations arranged for pads or lead/bass modulations, plus an LFOsample mode that samples the current LFO value. LFO Int controls a crossfade (X) function between two types of modulations.
-3. [VCO2] MultiLFO - this mode elaborates frequency multiples of the hardware LFO; 2x, 3x, and 4x LFO frequency. LFO Int prescales the multiples relative to the hardware LFO for a wide range of LFO frequencies; synced or not to key pressed. great for rhythmic BPM modulations. matrix switch control which multiple is assigned to Timbe and Morph. 
-4. [Multi] QuadLFO - finally, three additional phases are created for DSP inputs, while the original phase is used for Filter, or Pitch. with LFO Int controlling the phase ensemble offset from the LFO. matrix switches allow different phases to be applied to each Plaits input.
-
-when LFO Target is set to Pitch, [VCO1+2], and [VCO2] feature an alternate pitch modulation for damped, and pitch tracked vibrato modes.
-
-this is the current 'working' mod matrices, and their modes (Triphase is deprecated, QuadLFO will look similar though): 
-
-![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
-
-[1/17/26] update: sorry for the delay; with the new features, i've been playing a lot. now mod matrix alternates is up to four instead of two. each alternate is focused on one aspect of modulation, while coopting the LFO Int. knob for a new feature for each matrix: Key Tracking curves, LFO4 freq pre-scaler, Modulation Balance, Quadrature Phase/Freq LFO. LFO4 and Quadrature, use the hardware LFO for phase/data instead of a builtin, so you have more non-sync LFO options. Also, instancing AEG in a few places to reduce some redundancy. plus, LFOsample on Timbe for beepboopbeep effects! neat!
-
-[1/2/26] for PlaitsXplorer, I've coded an alternate set of Main Modulation options and Velocity Mods. The 2nd option essentially swaps the Timbre and Morph Main mods so you can get the MultiModulator on Timbre for some interesting voicing. the 2nd mode also substitutes a summing modulator mode for the KT mod stuff. the major benefit is MultiMod LFO complexity on Timbre, plus linear ramps for spectral sweeps without dedicating the LFO. mainly more modulation options. swapping sets is done with the Moulation->LFO Target OSC menu: Multi selects the 1st set, any option enabling a VCO selects the 2nd set. this doesn't interfere with any previous controls, and sits in an easy place - which i'm constantly using - to get to. i've a few more panel ideas to solve before i fix the other parts. 
-
-[11/11/25]
-ElementsXplorer Final now up! this very last version maps AMP Velocity to the Exciter stage controls, and EG Velocity to Resonator controls for coloration. you can adjust them independently, because now the Mallet controls responds to AMP Velocity! you can play plectrum delays, dribbles, and bounces with Velocity adding another dimension to playability for this physical modeling synthesizer. Exciter Strike Strength and Timbre also have AMP Velocity modulation. and now, it really is finished. back to PlaitsXplorer and more playing! enjoy!
-
-[10/8/25]
-ElementsXplorer RC5 with manual update is up. RC5 includes exciter control changes for better Mallet selection performance on Shape control where you can 'play' the selector, or use an Expression device. Then Strength on Shift-Shape to set upper limit strike strength, but with EG Velocity to provde a range of hits. Finally, Timbre take the Crossmod control for handy tweaking and LFO modulation. This is about where i want it. enjoy! 
-
-[9/21/25] 
-ElementsXplorer RC4 with manual updates is up. i moved LFO to Timbre, and reapplied LFO to Brightness - it had got lost in the edits of RC3. this should finish the model work for FINAL release. enjoy!
-
-[9/17/25]
-ElementsXplorer RC3 with manual is up!
-
-[9/16/25]
-ElementsXplorer RC3 is up. includes doubling the trigger delay to approx 6ms to remove the rest of the initial pitch schwing. added modulation options for LFO to Resonator Brightness and Strike Strength. this pretty much wraps it up for now. enjoy! 
-
-[9/7/25]
-ElementsXplorer RC2 is up. changes include Position as a new Envelope target (fun!) and a minor internal trigger delay that eliminates all or most fo the minor pitch 'schwing' the original model port had. yay!
-
-[9/6/25]
-ElementsXplorer RC1 is up with front panel control and draft modulation assignment docs.
-
-[9/4/25]
-ElementsXplorer is in the works now - a Front Panel controlled version of the Elements port to Korg prologue. will include support for Logue modulations, and key tracking each control. 
-
-[8/20/25]
-4th draft detailing Key Tracking with Bias and Modulations. this will probably be the last draft before todo list features are finished. enjoy!
-
-[8/15/25]
-3rd Draft Manual with Expression Controller section changes and additions, a Voicing and Modulation section, and VA oscillator programming example.
-
-[8/7/25] RC4 release binaries and manual are UP! so, takes a while to play through all these models while testing and isolating issues without a debugger. in RC3 I found Additive had a hard crash on one Prologue but only intermittant crash on the other. i might have a dodgy voice in one Prologue. fwiw Additive and Particle are the most CPU intensive, and String the most memory intensive. I removed some function call thrashing and coverted those calls to global variables to reduce CPU to fix both models. also added aunipolar version of LFO for Matrix Modulation (1) for cleaner modulation enveloping without inverting the multiplicand. now Additive works fine, and Particle is back in play and modulation (1) is more defined. also more manual updates woo!
-
-[6/8/25] RC3 release published. click on Releases to the right to download binaries and manual or follow this link https://github.com/john-k-walton/Prologue-Oscillators/releases/tag/plaits
-
-[6/7/25] RC3 binaries and manual uploaded. WT[a-f] do not have Interpolation or 5-bit implemented atm. not enough memory with the newest LFO3 modulation. need to shake some more bytes out of the source to fit it all in RC4.
+----------
+**[10/11/26]**
+RC5 coming soon....
