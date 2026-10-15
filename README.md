@@ -47,6 +47,9 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
 
 ----------
+**[10/15/26]**
+lots of new Pitch Modulations! In additon to using LFO2 as a vibrato modulation, now we had a shot decay envelope for horn blips, plus the four MultiMod LFO modulations are available as pitch modulations too! Horn Blip is an alternate mode for LFO2 (when set to Zero), so you can also use it in Main and Velocity Modulations channels too!
+
 **[10/11/26]**
 RC5 coming soon to a Prologue near you....
 
