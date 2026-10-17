@@ -48,7 +48,7 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 
 ----------
 **[10/15/26]**
-lots of new Pitch Modulations! In addition to using LFO2 as a vibrato modulation, now there is a short exponential decay envelope for horn blips, plus the four MultiMod LFO modulations (see below) are also available as pitch modulations too! Horn Blip is an alternate mode for LFO2 (when set to Zero), so you can also use it in Main and Velocity Modulations channels too! Update: added some Velocity controll vibrato intensity modes too. yum!
+lots of new Pitch Modulations! In addition to using LFO2 as a vibrato modulation, now there is a short exponential decay envelope for horn blips, plus the four MultiMod LFO modulations (see below) are also available as pitch modulations too! Horn Blip is an alternate mode for LFO2 (when set to Zero), so you can also use it in Main and Velocity Modulations channels too! Update: added some Velocity controlled Pitch Intensity modes too. yum!
 
 **[10/11/26]**
 RC5 coming soon to a Prologue near you....
