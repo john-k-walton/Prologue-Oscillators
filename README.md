@@ -47,13 +47,16 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
 
 ----------
-**[10/19/26]**
+**[10/20/26]**
+RC5 QuickStart zip file posted! included is PlaitsXplorer RC5 DSP models with a Cheat Sheet for folks familiar with RC4 and looking to start without the manual which will post later this week. visit Reddit r/LogueSDK or Discord server if you have questions.
+
+[10/19/26]
 Ok, RC5 is done! just have to put up some temp docs to get anyone interested going while i fiddle with documentation. features are mostly as detailed below with some minor changes and a couple of fun surprises i slipped in at the end. will post this week. 
 
-**[10/15/26]**
+[10/15/26]
 lots of new Pitch Modulations! In addition to using LFO2 as a vibrato modulation, now there is a short exponential decay envelope for horn blips, plus the four MultiMod LFO modulations (see below) are also available as pitch modulations too! Horn Blip is an alternate mode for LFO2 (when set to Zero), so you can also use it in Main and Velocity Modulations channels too! Update: added some Velocity controlled Pitch Intensity modes. yum! total of 13 new vibrato modes to make up for the single LFO or Chorus Vibrato. Some are windowed by the LFO and some aren't. all Intensities can also be controlled with the Mod Wheel.
 
-**[10/11/26]**
+[10/11/26]
 RC5 coming soon to a Prologue near you....
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
