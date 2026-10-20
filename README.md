@@ -60,6 +60,7 @@ lots of new Pitch Modulations! In addition to using LFO2 as a vibrato modulation
 RC5 coming soon to a Prologue near you....
 
 ![alt text](https://github.com/john-k-walton/Prologue-Oscillators/blob/main/ModMatrixRC5.png)
+diagram is slightly deprecated ATM.
 
 RC5 completely supplants LFO targets Selector, LFO generation for digital Oscillator, and LFO Int control. Providing four new Matrix Modulation modes with these additional features:
 
