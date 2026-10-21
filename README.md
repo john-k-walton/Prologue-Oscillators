@@ -45,7 +45,7 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 
 1. When initializing a new PX or EX model, proceed to MultiEngine Param Menu and *immediately* increment and decrement (by 1) each Param 1-6 in turn to prevent the Front Panel display Params from defaulting to -100 for Bipolar Params (PX's Params are all BiPolar), and save you and your encoder a lot of cranking. Once you do this new oscillator initialization it is not needed for this preset slot again - unles you change oscillators. Please keep in mind that the Params the Voice cards see, and what you hear, is a value of -100 until they're initialized by hand, the Front panel just isn't in sync yet. this is known bug/feature of Logue. this is especially evident with VA's detune, which has confused even me once in a while sometimes Prologue forgets the params on layers. weird korg bug there.
 2. A large Shape pointer knob is recommended for PlaitsXplorer to aid in Models with settings featuring Pitch. plus it helps in performance situations.
-3. remember to turn the VCO1 and VCO2 down in the mixer, and set the Pitch EG setting to VCO 1+2.
+3. remember to turn VCO1 and VCO2 down in the mixer, set the Pitch EG setting to VCO 1+2, and VCO octaves to 16'. good to go!
 
 ----------
 **[10/20/26]**
