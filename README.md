@@ -48,7 +48,9 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. remember to turn VCO1 and VCO2 down in the mixer, set the Pitch EG setting to VCO 1+2, and VCO octaves to 16'. good to go!
 
 ----------
-**[10/20/26]**
+**[10/25/26]** found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
+
+[10/20/26]
 RC5 QuickStart zip file posted! included is PlaitsXplorer RC5 DSP models with a Cheat Sheet for folks familiar with RC4 and looking to start without the manual which will post later this week. visit Reddit r/LogueSDK or Discord server if you have questions.
 
 [10/19/26]
@@ -66,9 +68,9 @@ RC5 completely supplants LFO targets Selector, LFO generation for digital Oscill
 
 [All] Crossfade: In this mode two modulators are summed in Main Modulation channel. LFO Int crossfades between the two modulators allowing both an additional modulator per input as well as a method to manually crossfade between them. Also, here, MultiMod samples the LFO at the beginning of the note (should be in non-sync mode), for a Sample and Hold effect.
 
-[VCO1+2] MultiRateLFO: This mode produces three multiples of the Main LFO selected by LFO Int control. Each of ten selections presents three preset rate multiples routed to ModMatrix selector for each input. Additionally, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the MultiRateLFO's.
+[VCO1+2] MultiRateLFO: This mode produces multiples of the Main LFO selected by LFO Int control. Each of eight selections presents mod matrix base rate with an interesting multiple 1,2,3,4,8,12,15,24. Additionally, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the MultiRateLFO's.
 
-[VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO; B, C, D Phases, while A remains with the Filter and Pitch modulation. LFO Int control adjusts the Phase interval between phases from 0-90 degrees. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
+[VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO; B, C, D Phases, while A remains with the Filter and Pitch modulation. LFO Int control adjusts the Phase interval between phases from 0-90, 180, or 270 degrees depending on phase. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
 
 [Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (input Modulation channel intensities are proportional to the current pitch) modulators that individually applied to each input. KeyTracking menu controls are partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch point: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a settable resolution of one and a half keys. the Wedges vary from no keys modulated, to full overlap of regions as provided in RC4. Also, in this mode, Multimod also produces EG Velocity in this mode as a direct static modulator. LFO Int is reserved for Key Tracking Curves in a future release.
 
