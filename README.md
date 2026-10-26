@@ -48,7 +48,9 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. remember to turn VCO1 and VCO2 down in the mixer, set the Pitch EG setting to VCO 1+2, and VCO octaves to 16'. good to go!
 
 ----------
-**[10/25/26]** found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
+**[10/26/26]** little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO3 and LFO3 counters so the ranges line up.  
+
+[10/25/26] found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
 
 [10/20/26]
 RC5 QuickStart zip file posted! included is PlaitsXplorer RC5 DSP models with a Cheat Sheet for folks familiar with RC4 and looking to start without the manual which will post later this week. visit Reddit r/LogueSDK or Discord server if you have questions.
