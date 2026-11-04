@@ -48,6 +48,8 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. remember to turn VCO1 and VCO2 down in the mixer, set the Pitch EG setting to VCO 1+2, and VCO octaves to 16'. good to go!
 
 ----------
+**[11/4/26]** uploaded RC5.1: fixes are done, can't find any more problems, have fun! 
+
 **[10/26/26]** little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO3 and LFO3 counters so the ranges line up.  
 
 [10/25/26] found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
@@ -74,7 +76,7 @@ RC5 completely supplants LFO targets Selector, LFO generation for digital Oscill
 
 [VCO2] QuadPhaseLFO: In this mode, three additional LFOs are produced in a typical QuadPhase relation with the Main LFO; B, C, D Phases, while A remains with the Filter and Pitch modulation. LFO Int control adjusts the Phase interval between phases from 0-90, 180, or 270 degrees depending on phase. ModMatrix switches selecct among phases. Additionally, as in MultiRateLFO, Pitch Target routes LFO2 to Oscillator pitch. LFO2 amplitude is modulated by the Triangle LFO for delayed/swelling vibrato effects. Also, Multimod produces the EG Velocity so it may be used control the amplitude of the QuadLFO's.
 
-[Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (input Modulation channel intensities are proportional to the current pitch) modulators that individually applied to each input. KeyTracking menu controls are partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch point: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a settable resolution of one and a half keys. the Wedges vary from no keys modulated, to full overlap of regions as provided in RC4. Also, in this mode, Multimod also produces EG Velocity in this mode as a direct static modulator. LFO Int is reserved for Key Tracking Curves in a future release.
+[Multi] Windows and Wedges Key Tracking: This mode allows Keytracked (input Modulation channel intensities are proportional to the current pitch) modulators that individually applied to each input. KeyTracking menu controls are partitioned into two value regions: Windows, and Wedges. Windows splits Main and Velocity at a single pitch point: Main Modulation may be above or below the split, with Velocity occuping the opposite position. 60 split points are provided for Prologue 16 uses. each point corresponds a key on the 61 keybed. Wedges produce opposing wedge shaped regions at each end of the keyboard (61 keys) with a settable resolution of one and a half keys. 61-80, smaller numbers are thin edge wedges; at 80 the wedge tips meet in the middle; 80-100, wedge overlap, until tips reach opposing ends of the keybed. this final setting is the same as RC4's full overlap. the Wedges vary from no keys modulated, to full overlap of regions as described. Also, in this mode, Multimod produces EG Velocity in this mode as a direct static modulator. LFO Int is reserved for Key Tracking Curves in a future release.
 
 Multimod now produces one of nine types of modulators when selected:
 - AR Linear Envelope
