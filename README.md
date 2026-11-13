@@ -50,7 +50,7 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 ----------
 **[11/4/26]** uploaded RC5.1: fixes are done, can't find any more problems, have fun! 
 
-**[10/26/26]** little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO3 and LFO3 counters so the ranges line up.  
+**[10/26/26]** little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO2 and LFO3 counters so the ranges line up.
 
 [10/25/26] found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
 
