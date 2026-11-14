@@ -48,9 +48,11 @@ Original Elements Manual https://pichenettes.github.io/mutable-instruments-docum
 3. remember to turn VCO1 and VCO2 down in the mixer, set the Pitch EG setting to VCO 1+2, and VCO octaves to 16'. good to go!
 
 ----------
-**[11/4/26]** uploaded RC5.1: fixes are done, can't find any more problems, have fun! 
+**[11/14/26]** famous last words... RC5.2 going up today; Harmonics Intensity in XFade wasn't working correctly. also, added version number you can see in librarian. just one last check and up it goes tonight.
 
-**[10/26/26]** little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO2 and LFO3 counters so the ranges line up.
+[11/4/26] uploaded RC5.1: fixes are done, can't find any more problems, have fun! 
+
+[10/26/26] little more clean up. have increased the number of segments in the address timing, so it's smoother. RC4 used a simple 2-piece log approximation, RC5 has 6 segments. also, normalized LFO2 and LFO3 counters so the ranges line up.
 
 [10/25/26] found two small bugs; QuadLFO phase[b] appear twice on Morph. got a 'b' and 'd' typo. Also, negative LFO Int. knob does unexpected things. both fixed. will come out with docs.
 
